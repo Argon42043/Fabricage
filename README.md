@@ -3,7 +3,6 @@
 Progress: [#___________________] ca. 5%
 
 ## Mods
-
 - [Advanced Peripherals (by Sr_endi)](https://www.curseforge.com/minecraft/mc-mods/advanced-peripherals)
 - [Advanced Rocketry (by zmaster587)](https://www.curseforge.com/minecraft/mc-mods/advanced-rocketry)
 - [AI Improvements (by QueenOfMissiles)](https://www.curseforge.com/minecraft/mc-mods/ai-improvements)
@@ -45,6 +44,7 @@ Progress: [#___________________] ca. 5%
 - [FPS Reducer (by bre2el)](https://www.curseforge.com/minecraft/mc-mods/fps-reducer)
 - [FTB Backups (Forge) (by FTB)](https://www.curseforge.com/minecraft/mc-mods/ftb-backups-forge)
 - [Gauges and Switches (by wilechaote)](https://www.curseforge.com/minecraft/mc-mods/redstone-gauges-and-switches)
+- [GeckoLib (by ThanosGecko)](https://www.curseforge.com/minecraft/mc-mods/geckolib)
 - [GraveStone Mod (by henkelmax)](https://www.curseforge.com/minecraft/mc-mods/gravestone-mod)
 - [Immersive Engineering (by BluSunrize)](https://www.curseforge.com/minecraft/mc-mods/immersive-engineering)
 - [Immersive Petroleum (by Flaxbeard)](https://www.curseforge.com/minecraft/mc-mods/immersive-petroleum)
@@ -52,6 +52,7 @@ Progress: [#___________________] ca. 5%
 - [Immersive Posts (by TwistedGate)](https://www.curseforge.com/minecraft/mc-mods/immersiveposts)
 - [Industrial Foregoing (by Buuz135)](https://www.curseforge.com/minecraft/mc-mods/industrial-foregoing)
 - [Inventory Tweaks Renewed (by David1544)](https://www.curseforge.com/minecraft/mc-mods/inventory-tweaks-renewed)
+- [Iron Chests (by ProgWML6)](https://www.curseforge.com/minecraft/mc-mods/iron-chests)
 - [It's the little things (by Zlepper)](https://www.curseforge.com/minecraft/mc-mods/its-the-little-things)
 - [ItemPhysic Lite (by CreativeMD)](https://www.curseforge.com/minecraft/mc-mods/itemphysic-lite)
 - [JEITweaker (by Jaredlll08)](https://www.curseforge.com/minecraft/mc-mods/jeitweaker)
@@ -63,6 +64,7 @@ Progress: [#___________________] ca. 5%
 - [Light Overlay (Rift/Forge/Fabric) (by shedaniel)](https://www.curseforge.com/minecraft/mc-mods/light-overlay)
 - [Login Shield (by Glasspelican)](https://www.curseforge.com/minecraft/mc-mods/login-shield)
 - [Macaw's Bridges (by sketch_macaw)](https://www.curseforge.com/minecraft/mc-mods/macaws-bridges)
+- [Mana and Artifice (by AWildCanadianEh)](https://www.curseforge.com/minecraft/mc-mods/mana-and-artifice)
 - [Mantle (by mDiyo)](https://www.curseforge.com/minecraft/mc-mods/mantle)
 - [Mapper Base (by Mapper)](https://www.curseforge.com/minecraft/mc-mods/mapper-base)
 - [Mekanism (by bradyaidanc)](https://www.curseforge.com/minecraft/mc-mods/mekanism)
@@ -71,6 +73,7 @@ Progress: [#___________________] ca. 5%
 - [Mouse Tweaks (by YaLTeR)](https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks)
 - [MrCrayfish's Furniture Mod (by MrCrayfish)](https://www.curseforge.com/minecraft/mc-mods/mrcrayfish-furniture-mod)
 - [MrCrayfish's Vehicle Mod (by MrCrayfish)](https://www.curseforge.com/minecraft/mc-mods/mrcrayfishs-vehicle-mod)
+- [No Tree Punching (by AlcatrazEscapee)](https://www.curseforge.com/minecraft/mc-mods/no-tree-punching)
 - [Obfuscate (by MrCrayfish)](https://www.curseforge.com/minecraft/mc-mods/obfuscate)
 - [ObserverLib (by HellFirePvP)](https://www.curseforge.com/minecraft/mc-mods/observerlib)
 - [PackMenu (by Shadows_of_Fire)](https://www.curseforge.com/minecraft/mc-mods/packmenu)
@@ -95,6 +98,7 @@ Progress: [#___________________] ca. 5%
 - [Titanium (by Buuz135)](https://www.curseforge.com/minecraft/mc-mods/titanium)
 - [Toast Control (by Shadows_of_Fire)](https://www.curseforge.com/minecraft/mc-mods/toast-control)
 - [Tool Belt (by gigaherz)](https://www.curseforge.com/minecraft/mc-mods/tool-belt)
+- [Tough As Nails (by TheAdubbz)](https://www.curseforge.com/minecraft/mc-mods/tough-as-nails)
 - [Uppers (by vadis365)](https://www.curseforge.com/minecraft/mc-mods/uppers)
 - [YUNG's API (Forge) (by YUNGNICKYOUNG)](https://www.curseforge.com/minecraft/mc-mods/yungs-api)
 - [YUNG's Better Caves (Forge) (by YUNGNICKYOUNG)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-caves)

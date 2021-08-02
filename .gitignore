@@ -6,3 +6,10 @@
 
 # except the readme file
 !README.md
+
+# except the manifest and modlist
+!manifest.json
+!modlist.html
+
+#except overrides
+!/overrides
