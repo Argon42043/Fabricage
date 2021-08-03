@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Islanded",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "",
   "files": [
     {
@@ -86,7 +86,7 @@
     },
     {
       "projectID": 280294,
-      "fileID": 3362165,
+      "fileID": 3409850,
       "required": true
     },
     {
@@ -121,7 +121,7 @@
     },
     {
       "projectID": 282001,
-      "fileID": 3408528,
+      "fileID": 3409979,
       "required": true
     },
     {
@@ -181,7 +181,7 @@
     },
     {
       "projectID": 239197,
-      "fileID": 3407893,
+      "fileID": 3409220,
       "required": true
     },
     {
@@ -332,6 +332,11 @@
     {
       "projectID": 236542,
       "fileID": 3302417,
+      "required": true
+    },
+    {
+      "projectID": 230976,
+      "fileID": 3052146,
       "required": true
     },
     {

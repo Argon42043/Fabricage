@@ -1,4 +1,4 @@
-# Islanded
+# Islanded 0.0.5
 
 Progress: [#___________________] ca. 5%
 
@@ -13,6 +13,7 @@ Progress: [#___________________] ca. 5%
 - [Controlling (by Jaredlll08)](https://www.curseforge.com/minecraft/mc-mods/controlling)
 - [Double Slabs (by CJMinecraft01)](https://www.curseforge.com/minecraft/mc-mods/double-slabs)
 - [Dynamic Surroundings (by OreCruncher)](https://www.curseforge.com/minecraft/mc-mods/dynamic-surroundings)
+- [Fast Leaf Decay (by olafskiii)](https://www.curseforge.com/minecraft/mc-mods/fast-leaf-decay)
 - [GraveStone Mod (by henkelmax)](https://www.curseforge.com/minecraft/mc-mods/gravestone-mod)
 - [Immersive Portals (for Forge) (by qouteall)](https://www.curseforge.com/minecraft/mc-mods/immersive-portals-for-forge)
 - [Inventory Tweaks Renewed (by David1544)](https://www.curseforge.com/minecraft/mc-mods/inventory-tweaks-renewed)
