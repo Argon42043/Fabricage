@@ -1,7 +1,8 @@
 # Islanded 0.0.5
 
-Modpack-Progress: [##__________________] ca. 10%
-Map-Progress:     [#___________________] ca. 5%
+__Modpack-Progress: [##\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_] ca. 10%__
+
+__Map-Progress:     [#\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_] ca. 5%__
 
 ## Environment / GUI
 - [x] [AppleSkin (by squeek502)](https://www.curseforge.com/minecraft/mc-mods/appleskin)
