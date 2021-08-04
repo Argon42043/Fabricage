@@ -5,15 +5,15 @@ Map-Progress:     [#___________________] ca. 5%
 
 ## Environment / GUI
 - [x] [AppleSkin (by squeek502)](https://www.curseforge.com/minecraft/mc-mods/appleskin)
-- [Better Advancements (by way2muchnoise)](https://www.curseforge.com/minecraft/mc-mods/better-advancements)
+- [x] [Better Advancements (by way2muchnoise)](https://www.curseforge.com/minecraft/mc-mods/better-advancements)
 - [x] [Better Biome Blend (by FionaTheMortal)](https://www.curseforge.com/minecraft/mc-mods/better-biome-blend)
 - [x] [Biomes O' Plenty (by Forstride)](https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty)
 - [x] [Blur (by tterrag1098)](https://www.curseforge.com/minecraft/mc-mods/blur)
 - [x] [Chisel (by tterrag1098)](https://www.curseforge.com/minecraft/mc-mods/chisel)
 - [x] [Chisels & Bits (by AlgorithmX2)](https://www.curseforge.com/minecraft/mc-mods/chisels-bits)
 - [x] [Controlling (by Jaredlll08)](https://www.curseforge.com/minecraft/mc-mods/controlling)
-- [Double Slabs (by CJMinecraft01)](https://www.curseforge.com/minecraft/mc-mods/double-slabs)
-- [] [Dynamic Surroundings (by OreCruncher)](https://www.curseforge.com/minecraft/mc-mods/dynamic-surroundings)
+- [x] [Double Slabs (by CJMinecraft01)](https://www.curseforge.com/minecraft/mc-mods/double-slabs)
+- [ ] [Dynamic Surroundings (by OreCruncher)](https://www.curseforge.com/minecraft/mc-mods/dynamic-surroundings)
 - [Fast Leaf Decay (by olafskiii)](https://www.curseforge.com/minecraft/mc-mods/fast-leaf-decay)
 - [GraveStone Mod (by henkelmax)](https://www.curseforge.com/minecraft/mc-mods/gravestone-mod)
 - [Immersive Portals (for Forge) (by qouteall)](https://www.curseforge.com/minecraft/mc-mods/immersive-portals-for-forge)
