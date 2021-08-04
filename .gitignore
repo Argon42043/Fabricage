@@ -1,5 +1,5 @@
 # Ignore everything...
-*
+/*
 
 # except for the gitignore file
 !.gitignore
@@ -11,4 +11,4 @@
 !*.zip
 
 #except overrides
-!/overrides
+!overrides
