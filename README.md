@@ -1,4 +1,4 @@
-# Islanded 0.0.5
+# Islanded 0.0.6
 
 __Modpack-Progress: [##\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_] ca. 10%__
 
@@ -17,7 +17,6 @@ __Map-Progress:     [#\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_] ca. 5%__
 - [x] [Dynamic Surroundings (by OreCruncher)](https://www.curseforge.com/minecraft/mc-mods/dynamic-surroundings)
 - [x] [Fast Leaf Decay (by olafskiii)](https://www.curseforge.com/minecraft/mc-mods/fast-leaf-decay)
 - [x] [GraveStone Mod (by henkelmax)](https://www.curseforge.com/minecraft/mc-mods/gravestone-mod)
-- __Wird leider wegen Bugs nicht im Modpack umgesetzt ->__ [Immersive Portals (for Forge) (by qouteall)](https://www.curseforge.com/minecraft/mc-mods/immersive-portals-for-forge)
 - [x] [Inventory Tweaks Renewed (by David1544)](https://www.curseforge.com/minecraft/mc-mods/inventory-tweaks-renewed)
 - [x] [ItemPhysic Lite (by CreativeMD)](https://www.curseforge.com/minecraft/mc-mods/itemphysic-lite)
 - [x] [JourneyMap (by techbrew)](https://www.curseforge.com/minecraft/mc-mods/journeymap)
