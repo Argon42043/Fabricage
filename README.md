@@ -30,7 +30,7 @@ __Map-Progress:     [#\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_] ca. 5%__
 - [ ] [Quark (by Vazkii)](https://www.curseforge.com/minecraft/mc-mods/quark)
 - [x] [Shutup Experimental Settings! (by Corgi_Taco)](https://www.curseforge.com/minecraft/mc-mods/shutup-experimental-settings)
 - [x] [Simple Discord RPC [Forge/Fabric] (by hypherionsa)](https://www.curseforge.com/minecraft/mc-mods/simple-discord-rpc)
-- [ ] [Simple Voice Chat (by henkelmax)](https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat)
+- [x] [Simple Voice Chat (by henkelmax)](https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat)
 - [ ] [SwingThroughGrass (by exidex)](https://www.curseforge.com/minecraft/mc-mods/swingthroughgrass)
 - [ ] [The One Probe (by McJty)](https://www.curseforge.com/minecraft/mc-mods/the-one-probe)
 - [ ] [TipTheScales (by Jaredlll08)](https://www.curseforge.com/minecraft/mc-mods/tipthescales)
@@ -41,7 +41,7 @@ __Map-Progress:     [#\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_] ca. 5%__
 - [ ] [YUNG's Better Strongholds (Forge) (by YUNGNICKYOUNG)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-strongholds)
 
 ## Modpack build / server / Performance
-- [ ] [AI Improvements (by QueenOfMissiles)](https://www.curseforge.com/minecraft/mc-mods/ai-improvements)
+- [x] [AI Improvements (by QueenOfMissiles)](https://www.curseforge.com/minecraft/mc-mods/ai-improvements)
 - [ ] [AppliedEnergisticsTweaker (by Jaredlll08)](https://www.curseforge.com/minecraft/mc-mods/appliedenergisticstweaker)
 - [ ] [Clumps (by Jaredlll08)](https://www.curseforge.com/minecraft/mc-mods/clumps)
 - [ ] [CraftTweaker (by Jaredlll08)](https://www.curseforge.com/minecraft/mc-mods/crafttweaker)
@@ -56,7 +56,7 @@ __Map-Progress:     [#\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_] ca. 5%__
 - [ ] [It's the little things (by Zlepper)](https://www.curseforge.com/minecraft/mc-mods/its-the-little-things)
 - [ ] [JEITweaker (by Jaredlll08)](https://www.curseforge.com/minecraft/mc-mods/jeitweaker)
 - [ ] [Login Shield (by Glasspelican)](https://www.curseforge.com/minecraft/mc-mods/login-shield)
-- [ ] [PackMenu (by Shadows_of_Fire)](https://www.curseforge.com/minecraft/mc-mods/packmenu)
+- [x] [PackMenu (by Shadows_of_Fire)](https://www.curseforge.com/minecraft/mc-mods/packmenu)
 - [ ] [Performant (by someaddon)](https://www.curseforge.com/minecraft/mc-mods/performant)
 - [ ] [ReAuth (by TechnicianLP)](https://www.curseforge.com/minecraft/mc-mods/reauth)
 
