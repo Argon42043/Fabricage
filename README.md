@@ -53,11 +53,11 @@ __Map-Progress:     [#\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_] ca. 5%__
 - [x] [FPS Reducer (by bre2el)](https://www.curseforge.com/minecraft/mc-mods/fps-reducer)
 - [x] [FTB Backups (Forge) (by FTB)](https://www.curseforge.com/minecraft/mc-mods/ftb-backups-forge)
 - [ ] [It's the little things (by Zlepper)](https://www.curseforge.com/minecraft/mc-mods/its-the-little-things)
-- [ ] [JEITweaker (by Jaredlll08)](https://www.curseforge.com/minecraft/mc-mods/jeitweaker)
-- [ ] [Login Shield (by Glasspelican)](https://www.curseforge.com/minecraft/mc-mods/login-shield)
+- [x] [JEITweaker (by Jaredlll08)](https://www.curseforge.com/minecraft/mc-mods/jeitweaker)
+- [x] [Login Shield (by Glasspelican)](https://www.curseforge.com/minecraft/mc-mods/login-shield)
 - [x] [PackMenu (by Shadows_of_Fire)](https://www.curseforge.com/minecraft/mc-mods/packmenu)
-- [ ] [Performant (by someaddon)](https://www.curseforge.com/minecraft/mc-mods/performant)
-- [ ] [ReAuth (by TechnicianLP)](https://www.curseforge.com/minecraft/mc-mods/reauth)
+- [x] [Performant (by someaddon)](https://www.curseforge.com/minecraft/mc-mods/performant)
+- [x] [ReAuth (by TechnicianLP)](https://www.curseforge.com/minecraft/mc-mods/reauth)
 
 ## Library / API
 - [ ] [Architectury API (Forge) (by shedaniel)](https://www.curseforge.com/minecraft/mc-mods/architectury-forge)
