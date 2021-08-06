@@ -44,7 +44,7 @@
                 {
                     "biome": "minecraft:warm_ocean",
                     "parameters": {
-                        "altitude": 0,
+                        "altitude": 0.1,
                         "temperature": 0,
                         "humidity": 0,
                         "weirdness": 0,
@@ -52,21 +52,11 @@
                     }
                 },
                 {
-                    "biome": "biomesoplenty:tropic_beach",
-                    "parameters": {
-                        "altitude": -0.99,
-                        "temperature": 0,
-                        "humidity": 0.1,
-                        "weirdness": 0,
-                        "offset": 0
-                    }
-                    },
-                {
                     "biome": "biomesoplenty:tropics",
                     "parameters": {
                         "altitude": 0,
                         "temperature": 0.25,
-                        "humidity": 0.5,
+                        "humidity": 0.3,
                         "weirdness": 0,
                         "offset": 0
                     }
@@ -76,7 +66,7 @@
                     "parameters": {
                         "altitude": 0,
                         "temperature": 0.25,
-                        "humidity": 0.5,
+                        "humidity": 0.4,
                         "weirdness": 0,
                         "offset": 0
                     }
@@ -85,7 +75,17 @@
                     "biome": "minecraft:jungle",
                     "parameters": {
                         "altitude": 0,
-                        "temperature": 0.26,
+                        "temperature": 0.25,
+                        "humidity": 0.5,
+                        "weirdness": 0,
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "minecraft:plains",
+                    "parameters": {
+                        "altitude": 0,
+                        "temperature": 0.5,
                         "humidity": 0.5,
                         "weirdness": 0,
                         "offset": 0
