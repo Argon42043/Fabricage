@@ -60,12 +60,12 @@ __Map-Progress:     [#\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_] ca. 5%__
 - [x] [ReAuth (by TechnicianLP)](https://www.curseforge.com/minecraft/mc-mods/reauth)
 
 ## Library / API
-- [ ] [Architectury API (Forge) (by shedaniel)](https://www.curseforge.com/minecraft/mc-mods/architectury-forge)
-- [ ] [AutoRegLib (by Vazkii)](https://www.curseforge.com/minecraft/mc-mods/autoreglib)
-- [ ] [Cloth Config API (Forge) (by shedaniel)](https://www.curseforge.com/minecraft/mc-mods/cloth-config-forge)
-- [ ] [ConnectedTexturesMod (by tterrag1098)](https://www.curseforge.com/minecraft/mc-mods/ctm)
-- [ ] [Curios API (Forge) (by TheIllusiveC4)](https://www.curseforge.com/minecraft/mc-mods/curios)
-- [ ] [Flywheel (by jozufozu)](https://www.curseforge.com/minecraft/mc-mods/flywheel)
+- [x] [Architectury API (Forge) (by shedaniel)](https://www.curseforge.com/minecraft/mc-mods/architectury-forge)
+- [x] [AutoRegLib (by Vazkii)](https://www.curseforge.com/minecraft/mc-mods/autoreglib)
+- [x] [Cloth Config API (Forge) (by shedaniel)](https://www.curseforge.com/minecraft/mc-mods/cloth-config-forge)
+- [x] [ConnectedTexturesMod (by tterrag1098)](https://www.curseforge.com/minecraft/mc-mods/ctm)
+- [x] [Curios API (Forge) (by TheIllusiveC4)](https://www.curseforge.com/minecraft/mc-mods/curios)
+- [x] [Flywheel (by jozufozu)](https://www.curseforge.com/minecraft/mc-mods/flywheel)
 - [ ] [GeckoLib (by ThanosGecko)](https://www.curseforge.com/minecraft/mc-mods/geckolib)
 - [ ] [LibVulpes (by zmaster587)](https://www.curseforge.com/minecraft/mc-mods/libvulpes)
 - [ ] [Mantle (by mDiyo)](https://www.curseforge.com/minecraft/mc-mods/mantle)
