@@ -12,3 +12,6 @@
 
 #except overrides
 !overrides
+
+#except Worldgeneration
+!world-generation.json
