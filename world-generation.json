@@ -72,13 +72,23 @@
                     }
                 },
                 {
-                    "biome": "biomesoplenty:volcano",
+                    "biome": "minecraft:jungle_edge",
                     "parameters": {
                         "altitude": 0,
-                        "temperature": 1.2,
-                        "humidity": 0,
+                        "temperature": 0.25,
+                        "humidity": 0.5,
                         "weirdness": 0,
-                        "offset": 0.01
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "minecraft:jungle",
+                    "parameters": {
+                        "altitude": 0,
+                        "temperature": 0.26,
+                        "humidity": 0.5,
+                        "weirdness": 0,
+                        "offset": 0
                     }
                 }
             ]
