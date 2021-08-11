@@ -7,11 +7,11 @@
 # except the readme file
 !README.md
 
-# except the zipfile
-!*.zip
+# except the makefile
+!makefile
 
 #except overrides
 !overrides
 
-#except Worldgeneration
-!world-generation.json
+#except Server
+!scripts
