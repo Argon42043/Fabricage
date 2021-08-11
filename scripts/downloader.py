@@ -3,6 +3,7 @@ from sys import path
 import requests
 import json
 import os
+import sys
 
 #downloadToDir:         path to server folder
 #manifestPath:          path to main manifest
@@ -21,6 +22,7 @@ def forgeInstallerDownloader(downloadToDir, manifestPath):
 
     #Get forge and minecraft version from manifest
     try:
+        print('Reading manifest')
         minecraftVersion = manifest['minecraft']['version']
         forgeVersion = manifest['minecraft']['modLoaders'][0]['id']
         forgeVersion = forgeVersion.replace("forge-","")
@@ -30,6 +32,7 @@ def forgeInstallerDownloader(downloadToDir, manifestPath):
     
     try:
     #download forge data
+        print('Downloading Forge-' + minecraftVersion + '-' + forgeVersion)
         forgeData = requests.get('https://maven.minecraftforge.net/net/minecraftforge/forge/' + minecraftVersion + '-' + forgeVersion + '/forge-' + minecraftVersion + '-' + forgeVersion + '-installer.jar')
     except:
         print('forge version cant be downloaded')
@@ -90,6 +93,7 @@ def modDownloader(downloadToDir, manifestPath, exceptManifestPath = None):
             continue
 
         #get mod data
+        print('Downloading ' + modInformation["fileName"])
         modData = requests.get(modInformation["downloadUrl"])
         if modData.status_code != 200:
             print('cant download ' + modInformation["fileName"] + ' from ' + modInformation["downloadUrl"] + ' because of status code ' + str(modData.status_code))
@@ -104,14 +108,53 @@ def modDownloader(downloadToDir, manifestPath, exceptManifestPath = None):
 
             f.write(modData.content)
             f.close()
-            print('Downloaded ' + modInformation["fileName"])
         except:
             print('cant save file ' + modInformation["fileName"])
             exit()
 
 
 if __name__ == '__main__':
-    rootPath = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) + '/'
 
-    #forgeInstallerDownloader(rootPath, rootPath + 'manifest.json')
-    modDownloader(rootPath + 'mods/', rootPath + 'scripts/manifest.json', rootPath + 'scripts/exceptManifest.json')
+    def commandHelp():
+        print('Usage:\n\
+            downloader.py forge <download dir> <manifest file>\n\
+            downloader.py mods <mods dir> <manifest file> [excepmanifest file]')
+        exit()
+
+
+    args = sys.argv
+
+    #check for min args len
+    if(len(args)< 4 or len(args) > 5):
+        commandHelp()
+
+    #path of script
+    currentDir = os.getcwd()
+
+    #complete download path
+    downloadDir = args[2]
+    if(downloadDir[0] != '/' and downloadDir[0:1] != './'):
+        downloadDir = currentDir + '/' + downloadDir
+
+    #complete manifest path
+    manifestFile = args[3]
+    if(manifestFile[0] != '/' and manifestFile[0:1] != './'):
+        manifestFile = currentDir + '/' + manifestFile
+
+    #complete excepmanifest path
+    if len(args) == 5:
+        excepManifestFile = args[4]
+        if(excepManifestFile[0] != '/' and excepManifestFile[0:1] != './'):
+            excepManifestFile = currentDir + '/' + excepManifestFile
+    else:
+        excepManifestFile = None
+
+    #select mode
+    if args[1] == "forge":
+        forgeInstallerDownloader(downloadDir, manifestFile)
+
+    elif args[1] == "mods":
+        modDownloader(downloadDir, manifestFile, excepManifestFile)
+
+    else:
+        commandHelp
