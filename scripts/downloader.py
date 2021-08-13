@@ -40,7 +40,7 @@ def forgeInstallerDownloader(downloadToDir, manifestPath):
 
     #save forge data to file
     try:
-        f = open(downloadToDir + 'forge-Installer.jar', 'wb')
+        f = open(os.path.join(downloadToDir, 'forge-Installer.jar'), 'wb')
         f.write(forgeData.content)
         f.close()
     except:
@@ -102,9 +102,9 @@ def modDownloader(downloadToDir, manifestPath, exceptManifestPath = None):
         #save mod data
         try:
             if file['required'] == True:
-                f = open(downloadToDir + modInformation["fileName"], 'wb')
+                f = open(os.path.join(downloadToDir, modInformation["fileName"]), 'wb')
             else:
-                f = open(downloadToDir + modInformation["fileName"] + '.disabled', 'wb')
+                f = open(os.path.join(downloadToDir, modInformation["fileName"] + '.disabled'), 'wb')
 
             f.write(modData.content)
             f.close()
@@ -132,20 +132,16 @@ if __name__ == '__main__':
     currentDir = os.getcwd()
 
     #complete download path
-    downloadDir = args[2]
-    if(downloadDir[0] != '/' and downloadDir[0:1] != './'):
-        downloadDir = currentDir + '/' + downloadDir
+    downloadDir = os.path.abspath(args[2])
+    print(downloadDir)
 
     #complete manifest path
-    manifestFile = args[3]
-    if(manifestFile[0] != '/' and manifestFile[0:1] != './'):
-        manifestFile = currentDir + '/' + manifestFile
-
+    manifestFile = os.path.abspath(args[3])
+    
     #complete excepmanifest path
     if len(args) == 5:
-        excepManifestFile = args[4]
-        if(excepManifestFile[0] != '/' and excepManifestFile[0:1] != './'):
-            excepManifestFile = currentDir + '/' + excepManifestFile
+        excepManifestFile = os.path.abspath(args[4])
+        
     else:
         excepManifestFile = None
 
