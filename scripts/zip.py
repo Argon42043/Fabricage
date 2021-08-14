@@ -12,7 +12,7 @@ except:
     print('manifest cant be accessed or does not exist')
     exit()
 
-zipfileName = manifest['name'] + '_' + manifest['version'] + '.zip'
+zipfileName = manifest['name'] + '-' + manifest['version'] + '.zip'
 
 #create zipfile
 zip = ZipFile(zipfileName, 'w')

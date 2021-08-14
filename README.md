@@ -1,8 +1,8 @@
 # Islanded 0.0.7
 
-__Modpack-Progress: [##\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_] ca. 10%__
+__Modpack-Progress: [####\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_] ca. 20%__
 
-__Map-Progress:     [#\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_] ca. 5%__
+__Map-Progress:     [###\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_] ca. 15%__
 
 ## Environment / GUI
 - [x] [AppleSkin (by squeek502)](https://www.curseforge.com/minecraft/mc-mods/appleskin)
@@ -26,7 +26,7 @@ __Map-Progress:     [#\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_] ca. 5%__
 - [x] [Light Overlay (Rift/Forge/Fabric) (by shedaniel)](https://www.curseforge.com/minecraft/mc-mods/light-overlay)
 - [x] [Mod Name Tooltip (by mezz)](https://www.curseforge.com/minecraft/mc-mods/mod-name-tooltip)
 - [x] [Mouse Tweaks (by YaLTeR)](https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks)
-- [ ] [Quark (by Vazkii)](https://www.curseforge.com/minecraft/mc-mods/quark)
+- [x] [Quark (by Vazkii)](https://www.curseforge.com/minecraft/mc-mods/quark)
 - [x] [Shutup Experimental Settings! (by Corgi_Taco)](https://www.curseforge.com/minecraft/mc-mods/shutup-experimental-settings)
 - [x] [Simple Discord RPC [Forge/Fabric] (by hypherionsa)](https://www.curseforge.com/minecraft/mc-mods/simple-discord-rpc)
 - [x] [Simple Voice Chat (by henkelmax)](https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat)
@@ -35,9 +35,9 @@ __Map-Progress:     [#\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_] ca. 5%__
 - [x] [TipTheScales (by Jaredlll08)](https://www.curseforge.com/minecraft/mc-mods/tipthescales)
 - [x] [Toast Control (by Shadows_of_Fire)](https://www.curseforge.com/minecraft/mc-mods/toast-control)
 - [x] [Tough As Nails (by TheAdubbz)](https://www.curseforge.com/minecraft/mc-mods/tough-as-nails)
-- [ ] [YUNG's Better Caves (Forge) (by YUNGNICKYOUNG)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-caves)
-- [ ] [YUNG's Better Mineshafts (Forge) (by YUNGNICKYOUNG)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-mineshafts-forge)
-- [ ] [YUNG's Better Strongholds (Forge) (by YUNGNICKYOUNG)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-strongholds)
+- [x] [YUNG's Better Caves (Forge) (by YUNGNICKYOUNG)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-caves)
+- [x] [YUNG's Better Mineshafts (Forge) (by YUNGNICKYOUNG)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-mineshafts-forge)
+- [x] [YUNG's Better Strongholds (Forge) (by YUNGNICKYOUNG)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-strongholds)
 
 ## Modpack build / server / Performance
 - [x] [AI Improvements (by QueenOfMissiles)](https://www.curseforge.com/minecraft/mc-mods/ai-improvements)
@@ -52,7 +52,7 @@ __Map-Progress:     [#\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_] ca. 5%__
 - [x] [FerriteCore (Forge) (by malte0811)](https://www.curseforge.com/minecraft/mc-mods/ferritecore)
 - [x] [FPS Reducer (by bre2el)](https://www.curseforge.com/minecraft/mc-mods/fps-reducer)
 - [x] [FTB Backups (Forge) (by FTB)](https://www.curseforge.com/minecraft/mc-mods/ftb-backups-forge)
-- [ ] [It's the little things (by Zlepper)](https://www.curseforge.com/minecraft/mc-mods/its-the-little-things)
+- [x] [It's the little things (by Zlepper)](https://www.curseforge.com/minecraft/mc-mods/its-the-little-things)
 - [x] [JEITweaker (by Jaredlll08)](https://www.curseforge.com/minecraft/mc-mods/jeitweaker)
 - [x] [Login Shield (by Glasspelican)](https://www.curseforge.com/minecraft/mc-mods/login-shield)
 - [x] [PackMenu (by Shadows_of_Fire)](https://www.curseforge.com/minecraft/mc-mods/packmenu)
@@ -81,7 +81,6 @@ __Map-Progress:     [#\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_] ca. 5%__
 - [x] [Advanced Peripherals (by Sr_endi)](https://www.curseforge.com/minecraft/mc-mods/advanced-peripherals)
 - [x] [Advanced Rocketry (by zmaster587)](https://www.curseforge.com/minecraft/mc-mods/advanced-rocketry)
 - [x] [Applied Energistics 2 (by AlgorithmX2)](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2)
-- [x] [Applied Energistics 2 Wireless Terminals Forge (by tfarecnim)](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2-wireless-terminals-forge)
 - [x] [Astral Sorcery (by HellFirePvP)](https://www.curseforge.com/minecraft/mc-mods/astral-sorcery)
 - [x] [Backpacked (by MrCrayfish)](https://www.curseforge.com/minecraft/mc-mods/backpacked)
 - [x] [Blood Magic  (by WayofTime)](https://www.curseforge.com/minecraft/mc-mods/blood-magic)
