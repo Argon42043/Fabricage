@@ -1,4 +1,4 @@
-# Islanded 0.0.7
+# Islanded 0.1.0
 
 __Modpack-Progress: [####\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_] ca. 20%__
 
@@ -10,6 +10,7 @@ __Map-Progress:     [###\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_] ca. 15%__
 - [x] [Better Biome Blend (by FionaTheMortal)](https://www.curseforge.com/minecraft/mc-mods/better-biome-blend)
 - [x] [Biomes O' Plenty (by Forstride)](https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty)
 - [x] [Blur (by tterrag1098)](https://www.curseforge.com/minecraft/mc-mods/blur)
+- [x] [Building Wands (by nicguzzo)](https://www.curseforge.com/minecraft/mc-mods/building-wands)
 - [x] [Chisel (by tterrag1098)](https://www.curseforge.com/minecraft/mc-mods/chisel)
 - [x] [Chisels & Bits (by AlgorithmX2)](https://www.curseforge.com/minecraft/mc-mods/chisels-bits)
 - [x] [Controlling (by Jaredlll08)](https://www.curseforge.com/minecraft/mc-mods/controlling)
@@ -66,6 +67,7 @@ __Map-Progress:     [###\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_] ca. 15%__
 - [x] [ConnectedTexturesMod (by tterrag1098)](https://www.curseforge.com/minecraft/mc-mods/ctm)
 - [x] [Curios API (Forge) (by TheIllusiveC4)](https://www.curseforge.com/minecraft/mc-mods/curios)
 - [x] [Flywheel (by jozufozu)](https://www.curseforge.com/minecraft/mc-mods/flywheel)
+- [x] [FTB Library (Forge) (by FTB)](https://www.curseforge.com/minecraft/mc-mods/ftb-library-forge)
 - [x] [GeckoLib (by ThanosGecko)](https://www.curseforge.com/minecraft/mc-mods/geckolib)
 - [x] [LibVulpes (by zmaster587)](https://www.curseforge.com/minecraft/mc-mods/libvulpes)
 - [x] [Mantle (by mDiyo)](https://www.curseforge.com/minecraft/mc-mods/mantle)
