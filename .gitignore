@@ -15,3 +15,6 @@
 
 #except Server
 !scripts
+
+#except Progressionline
+!Progressionline.svg

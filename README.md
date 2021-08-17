@@ -114,4 +114,4 @@ __Map-Progress:     [###\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_] ca. 15%__
 - [x] [Tool Belt (by gigaherz)](https://www.curseforge.com/minecraft/mc-mods/tool-belt)
 - [x] [Uppers (by vadis365)](https://www.curseforge.com/minecraft/mc-mods/uppers)
   
-![Progressionline](Progression%20line.svg)
+![Progressionline](Progressionline.svg)
