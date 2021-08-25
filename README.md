@@ -1,4 +1,4 @@
-# Islanded 0.1.0
+# Islanded 0.1.1
 
 __Modpack-Progress: [####\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_] ca. 20%__
 
@@ -11,6 +11,7 @@ __Map-Progress:     [###\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_] ca. 15%__
 - [x] [Biomes O' Plenty (by Forstride)](https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty)
 - [x] [Blur (by tterrag1098)](https://www.curseforge.com/minecraft/mc-mods/blur)
 - [x] [Building Wands (by nicguzzo)](https://www.curseforge.com/minecraft/mc-mods/building-wands)
+- [x] [Chicken Chunks 1.8.+ (by covers1624)](https://www.curseforge.com/minecraft/mc-mods/chicken-chunks-1-8)
 - [x] [Chisel (by tterrag1098)](https://www.curseforge.com/minecraft/mc-mods/chisel)
 - [x] [Chisels & Bits (by AlgorithmX2)](https://www.curseforge.com/minecraft/mc-mods/chisels-bits)
 - [x] [Controlling (by Jaredlll08)](https://www.curseforge.com/minecraft/mc-mods/controlling)
@@ -53,6 +54,8 @@ __Map-Progress:     [###\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_] ca. 15%__
 - [x] [FerriteCore (Forge) (by malte0811)](https://www.curseforge.com/minecraft/mc-mods/ferritecore)
 - [x] [FPS Reducer (by bre2el)](https://www.curseforge.com/minecraft/mc-mods/fps-reducer)
 - [x] [FTB Backups (Forge) (by FTB)](https://www.curseforge.com/minecraft/mc-mods/ftb-backups-forge)
+- [x] [FTB Quests (Forge) (by FTB)](https://www.curseforge.com/minecraft/mc-mods/ftb-quests-forge)
+- [x] [FTB Teams (Forge) (by FTB)](https://www.curseforge.com/minecraft/mc-mods/ftb-teams-forge)
 - [x] [It's the little things (by Zlepper)](https://www.curseforge.com/minecraft/mc-mods/its-the-little-things)
 - [x] [JEITweaker (by Jaredlll08)](https://www.curseforge.com/minecraft/mc-mods/jeitweaker)
 - [x] [Login Shield (by Glasspelican)](https://www.curseforge.com/minecraft/mc-mods/login-shield)
@@ -64,11 +67,13 @@ __Map-Progress:     [###\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_] ca. 15%__
 - [x] [Architectury API (Forge) (by shedaniel)](https://www.curseforge.com/minecraft/mc-mods/architectury-forge)
 - [x] [AutoRegLib (by Vazkii)](https://www.curseforge.com/minecraft/mc-mods/autoreglib)
 - [x] [Cloth Config API (Forge) (by shedaniel)](https://www.curseforge.com/minecraft/mc-mods/cloth-config-forge)
+- [x] [CodeChicken Lib 1.8.+ (by covers1624)](https://www.curseforge.com/minecraft/mc-mods/codechicken-lib-1-8)
 - [x] [ConnectedTexturesMod (by tterrag1098)](https://www.curseforge.com/minecraft/mc-mods/ctm)
 - [x] [Curios API (Forge) (by TheIllusiveC4)](https://www.curseforge.com/minecraft/mc-mods/curios)
 - [x] [Flywheel (by jozufozu)](https://www.curseforge.com/minecraft/mc-mods/flywheel)
 - [x] [FTB Library (Forge) (by FTB)](https://www.curseforge.com/minecraft/mc-mods/ftb-library-forge)
 - [x] [GeckoLib (by ThanosGecko)](https://www.curseforge.com/minecraft/mc-mods/geckolib)
+- [x] [Item Filters (Forge) (by LatvianModder)](https://www.curseforge.com/minecraft/mc-mods/item-filters-forge)
 - [x] [LibVulpes (by zmaster587)](https://www.curseforge.com/minecraft/mc-mods/libvulpes)
 - [x] [Mantle (by mDiyo)](https://www.curseforge.com/minecraft/mc-mods/mantle)
 - [x] [Mapper Base (by Mapper)](https://www.curseforge.com/minecraft/mc-mods/mapper-base)
