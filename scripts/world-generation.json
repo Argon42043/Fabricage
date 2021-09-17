@@ -16,7 +16,7 @@
               "firstOctave": -7,
               "amplitudes": [
                 1,
-                1
+                5
               ]
             },
             "temperature_noise": {
@@ -76,6 +76,16 @@
                     "parameters": {
                         "altitude": 0,
                         "temperature": 0.25,
+                        "humidity": 0.5,
+                        "weirdness": 0,
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "minecraft:jungle_hills",
+                    "parameters": {
+                        "altitude": 0,
+                        "temperature": 0.4,
                         "humidity": 0.5,
                         "weirdness": 0,
                         "offset": 0

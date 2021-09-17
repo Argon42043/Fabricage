@@ -18,6 +18,10 @@ function removeAndHideItem(item as IItemStack) as void{
 }
 
 
+####################
+## NoTreePunching ##
+####################
+
 //remove cobblestone variants
 removeAndHideItem(<item:notreepunching:andesite_cobblestone>);
 removeAndHideItem(<item:notreepunching:diorite_cobblestone>);
@@ -50,6 +54,11 @@ removeAndHideItem(<item:notreepunching:stone_loose_rock>);
 removeAndHideItem(<item:notreepunching:sandstone_loose_rock>);
 removeAndHideItem(<item:notreepunching:red_sandstone_loose_rock>);
 
+
+##################
+## remove Tools ##
+##################
+
 //remove wooden tools
 removeAndHideItem(<item:minecraft:wooden_sword>);
 removeAndHideItem(<item:minecraft:wooden_shovel>);
@@ -63,3 +72,15 @@ removeAndHideItem(<item:minecraft:stone_shovel>);
 removeAndHideItem(<item:minecraft:stone_pickaxe>);
 removeAndHideItem(<item:minecraft:stone_axe>);
 removeAndHideItem(<item:minecraft:stone_hoe>);
+
+//remove steel tools
+removeAndHideItem(<item:immersiveengineering:sword_steel>);
+removeAndHideItem(<item:immersiveengineering:shovel_steel>);
+removeAndHideItem(<item:immersiveengineering:pickaxe_steel>);
+removeAndHideItem(<item:immersiveengineering:axe_steel>);
+removeAndHideItem(<item:immersiveengineering:hoe_steel>);
+removeAndHideItem(<item:mapperbase:steel_sword>);
+removeAndHideItem(<item:mapperbase:steel_shovel>);
+removeAndHideItem(<item:mapperbase:steel_pickaxe>);
+removeAndHideItem(<item:mapperbase:steel_axe>);
+removeAndHideItem(<item:mapperbase:steel_hoe>);
