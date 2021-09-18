@@ -24,6 +24,7 @@ removeAndHideItemSmallShips(<item:smallships:bop_palm_rowboat>);
 removeAndHideItemSmallShips(<item:smallships:bop_redwood_rowboat>);
 removeAndHideItemSmallShips(<item:smallships:bop_umbran_rowboat>);
 removeAndHideItemSmallShips(<item:smallships:bop_willow_rowboat>);
+// Segel
 <recipetype:create:mechanical_crafting>.addRecipe("costum_sail", <item:smallships:sail_item>, [[<item:minecraft:air>, <item:minecraft:air>, <tag:items:minecraft:logs>, <item:minecraft:air>, <item:minecraft:air>],
                                                                                                 [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:logs>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>],
                                                                                                 [<tag:items:minecraft:wool>, <tag:items:minecraft:wool>, <tag:items:minecraft:logs>, <tag:items:minecraft:wool>, <tag:items:minecraft:wool>],
@@ -31,6 +32,8 @@ removeAndHideItemSmallShips(<item:smallships:bop_willow_rowboat>);
                                                                                                 [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:logs>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>],
                                                                                                 [<item:mapperbase:bolt>, <item:minecraft:air>, <tag:items:minecraft:logs>, <item:minecraft:air>, <item:mapperbase:bolt>],
                                                                                                 [<item:minecraft:lead>, <item:minecraft:air>, <tag:items:minecraft:logs>, <item:minecraft:air>, <item:minecraft:lead>]]);
+// boot 
+
 craftingTable.addShaped("custom_oak_rowboat", <item:smallships:oak_rowboat>, [[<tag:items:forge:plates/iron>, <tag:items:forge:chests/wooden>, <tag:items:forge:plates/iron>], 
                                                                             [<item:minecraft:oak_planks>, <item:minecraft:oak_boat>, <item:minecraft:oak_planks>],
                                                                             [<item:minecraft:oak_planks>, <item:minecraft:oak_planks>, <item:minecraft:oak_planks>]]);
