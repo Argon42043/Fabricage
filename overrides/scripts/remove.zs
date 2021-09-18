@@ -73,6 +73,20 @@ removeAndHideItem(<item:minecraft:stone_pickaxe>);
 removeAndHideItem(<item:minecraft:stone_axe>);
 removeAndHideItem(<item:minecraft:stone_hoe>);
 
+//remove iron tools
+removeAndHideItem(<item:minecraft:iron_sword>);
+removeAndHideItem(<item:minecraft:iron_shovel>);
+removeAndHideItem(<item:minecraft:iron_pickaxe>);
+removeAndHideItem(<item:minecraft:iron_axe>);
+removeAndHideItem(<item:minecraft:iron_hoe>);
+
+//remove golden tools
+removeAndHideItem(<item:minecraft:golden_sword>);
+removeAndHideItem(<item:minecraft:golden_shovel>);
+removeAndHideItem(<item:minecraft:golden_pickaxe>);
+removeAndHideItem(<item:minecraft:golden_axe>);
+removeAndHideItem(<item:minecraft:golden_hoe>);
+
 //remove steel tools
 removeAndHideItem(<item:immersiveengineering:sword_steel>);
 removeAndHideItem(<item:immersiveengineering:shovel_steel>);
