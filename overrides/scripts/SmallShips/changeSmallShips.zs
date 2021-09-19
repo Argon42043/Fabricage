@@ -1,5 +1,6 @@
 import mods.jei.JEI;
 import crafttweaker.api.item.IItemStack;
+import crafttweaker.api.item.Ingredient;
 
 function removeAndHideItemSmallShips(item as IItemStack) as void{
     craftingTable.removeRecipe(item);
@@ -35,11 +36,14 @@ removeAndHideItemSmallShips(<item:smallships:bop_willow_rowboat>);
                                                                                                 [<item:mapperbase:bolt>, <item:minecraft:air>, <tag:items:minecraft:logs>, <item:minecraft:air>, <item:mapperbase:bolt>],
                                                                                                 [<item:minecraft:lead>, <item:minecraft:air>, <tag:items:minecraft:logs>, <item:minecraft:air>, <item:minecraft:lead>]]);
 
-//Recreated Ship Recipes 
+//Recreated Ship Recipes for craftingTable
 craftingTable.addShaped("custom_oak_rowboat", <item:smallships:oak_rowboat>, [[<tag:items:forge:plates/iron>, <tag:items:forge:chests/wooden>, <tag:items:forge:plates/iron>], 
                                                                             [<item:minecraft:oak_planks>, <item:minecraft:oak_boat>, <item:minecraft:oak_planks>],
                                                                             [<item:minecraft:oak_planks>, <item:minecraft:oak_planks>, <item:minecraft:oak_planks>]]);
-// Test <recipetype:create:mechanical_crafting>.addRecipe("mechanical_crafting_oak_rowboat", <item:smallships:oak_rowboat>, );
+//Recreated Ships Recipes for mechanical_crafting
+<recipetype:create:mechanical_crafting>.addRecipe("mechanical_crafting_oak_rowboat", <item:smallships:oak_rowboat>, [[<tag:items:forge:plates/iron>, <tag:items:forge:chests/wooden>, <tag:items:forge:plates/iron>], 
+                                                                                                                    [<item:minecraft:oak_planks>, <item:minecraft:oak_boat>, <item:minecraft:oak_planks>],
+                                                                                                                    [<item:minecraft:oak_planks>, <item:minecraft:oak_planks>, <item:minecraft:oak_planks>]]);
 
 craftingTable.addShaped("custom_spruce_rowboat", <item:smallships:spruce_rowboat>, [[<tag:items:forge:plates/iron>, <tag:items:forge:chests/wooden>, <tag:items:forge:plates/iron>], 
                                                                             [<item:minecraft:spruce_planks>, <item:minecraft:spruce_boat>, <item:minecraft:spruce_planks>],
