@@ -9,8 +9,8 @@ function removeAndHideItemToolBelt(item as IItemStack) as void{
 removeAndHideItemToolBelt(<item:toolbelt:pouch>);
 
 function addNewCraftingRecipeToolBelt(recipeName as string, item as IItemStack, recipe as IIngredient[][]) as void{
-    <recipetype:create:mechanical_crafting>.addRecipe("custom_"+recipeName, item, recipe);
-    craftingTable.addShaped("mechanicalcrafting_"+recipeName, item, recipe);
+    <recipetype:create:mechanical_crafting>.addRecipe("mechanicalcrafting_"+recipeName, item, recipe);
+    craftingTable.addShaped("custom_"+recipeName, item, recipe);
 }
 
 addNewCraftingRecipeToolBelt("belt_pouch", <item:toolbelt:pouch>, [[<item:minecraft:string>, <tag:items:forge:ingots/copper>, <item:minecraft:string>],

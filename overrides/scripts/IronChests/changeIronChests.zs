@@ -19,8 +19,8 @@ for item in itemsToRemove_iron_chest {
 }
 
 function addNewCraftingRecipeIronChests(recipeName as string, item as IItemStack, recipe as IIngredient[][]) as void{
-    <recipetype:create:mechanical_crafting>.addRecipe("custom_"+recipeName, item, recipe);
-    craftingTable.addShaped("mechanicalcrafting_"+recipeName, item, recipe);
+    <recipetype:create:mechanical_crafting>.addRecipe("mechanicalcrafting_"+recipeName, item, recipe);
+    craftingTable.addShaped("custom_"+recipeName, item, recipe);
 }
 
 addNewCraftingRecipeIronChests("iron_chest", <item:ironchest:iron_chest>, [[<item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>],
