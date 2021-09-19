@@ -1,5 +1,6 @@
 import mods.jei.JEI;
 import crafttweaker.api.item.IItemStack;
+import crafttweaker.api.item.IIngredient;
 
 
 function removeAndHideItemManaandArtefice(item as IItemStack) as void{
@@ -7,9 +8,9 @@ function removeAndHideItemManaandArtefice(item as IItemStack) as void{
 }
 
 val itemsToRemove_ManaandArtefice = [
-    <item:mana-and-artifice:manaweaver_wand>
-    <item:mana-and-artifice:vinteum_coated_iron>
-    <item:mana-and-artifice:purified_vinteum_coated_iron>
+    <item:mana-and-artifice:manaweaver_wand>,
+    <item:mana-and-artifice:vinteum_coated_iron>,
+    <item:mana-and-artifice:purified_vinteum_coated_iron>,
     <item:mana-and-artifice:stone_rune_blank>
 ] as IItemStack[];
 
