@@ -61,4 +61,4 @@ addNewCraftingRecipeBloodMagic("blank_rune_magician_blood_orb", <item:bloodmagic
 addNewCraftingRecipeBloodMagic("blank_rune_master_blood_orb", <item:bloodmagic:blankrune>, [[<item:botania:livingrock>, <item:bloodmagic:blankslate>, <item:botania:livingrock>],
                                                                             [<item:botania:livingrock>, <item:bloodmagic:masterbloodorb>, <item:botania:livingrock>], 
                                                                             [<item:botania:livingrock>, <item:botania:livingrock>, <item:botania:livingrock>]]);    
-                            
+         
