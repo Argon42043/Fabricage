@@ -1,6 +1,5 @@
 import mods.jei.JEI;
 import crafttweaker.api.item.IItemStack;
-import crafttweaker.api.item.Ingredient;
 
 function removeAndHideItemSmallShips(item as IItemStack) as void{
     craftingTable.removeRecipe(item);
