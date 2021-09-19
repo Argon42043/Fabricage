@@ -60,3 +60,47 @@ craftingTable.addShaped("custom_acacia_rowboat", <item:smallships:acacia_rowboat
 craftingTable.addShaped("custom_dark_oak_rowboat", <item:smallships:dark_oak_rowboat>, [[<tag:items:forge:plates/iron>, <tag:items:forge:chests/wooden>, <tag:items:forge:plates/iron>], 
                                                                             [<item:minecraft:dark_oak_planks>, <item:minecraft:dark_oak_boat>, <item:minecraft:dark_oak_planks>],
                                                                             [<item:minecraft:dark_oak_planks>, <item:minecraft:dark_oak_planks>, <item:minecraft:dark_oak_planks>]]);
+
+craftingTable.addShaped("custom_bop_cherry_rowboat", <item:smallships:bop_cherry_rowboat>, [[<tag:items:forge:plates/iron>, <tag:items:forge:chests/wooden>, <tag:items:forge:plates/iron>], 
+                                                                            [<item:biomesoplenty:cherry_planks>, <item:biomesoplenty:cherry_boat>, <item:biomesoplenty:cherry_planks>],
+                                                                            [<item:biomesoplenty:cherry_planks>, <item:biomesoplenty:cherry_planks>, <item:biomesoplenty:cherry_planks>]]);
+
+craftingTable.addShaped("custom_bop_dead_rowboat", <item:smallships:bop_dead_rowboat>, [[<tag:items:forge:plates/iron>, <tag:items:forge:chests/wooden>, <tag:items:forge:plates/iron>], 
+                                                                            [<item:biomesoplenty:dead_planks>, <item:biomesoplenty:dead_boat>, <item:biomesoplenty:dead_planks>],
+                                                                            [<item:biomesoplenty:dead_planks>, <item:biomesoplenty:dead_planks>, <item:biomesoplenty:dead_planks>]]);
+
+craftingTable.addShaped("custom_bop_fir_rowboat", <item:smallships:bop_fir_rowboat>, [[<tag:items:forge:plates/iron>, <tag:items:forge:chests/wooden>, <tag:items:forge:plates/iron>], 
+                                                                            [<item:biomesoplenty:fir_planks>, <item:biomesoplenty:fir_boat>, <item:biomesoplenty:fir_planks>],
+                                                                            [<item:biomesoplenty:fir_planks>, <item:biomesoplenty:fir_planks>, <item:biomesoplenty:fir_planks>]]);
+
+craftingTable.addShaped("custom_bop_hellbark_rowboat", <item:smallships:bop_hellbark_rowboat>, [[<tag:items:forge:plates/iron>, <tag:items:forge:chests/wooden>, <tag:items:forge:plates/iron>], 
+                                                                            [<item:biomesoplenty:hellbark_planks>, <item:biomesoplenty:hellbark_boat>, <item:biomesoplenty:hellbark_planks>],
+                                                                            [<item:biomesoplenty:hellbark_planks>, <item:biomesoplenty:hellbark_planks>, <item:biomesoplenty:hellbark_planks>]]); 
+                                                                            
+craftingTable.addShaped("custom_bop_jacaranda_rowboat", <item:smallships:bop_jacaranda_rowboat>, [[<tag:items:forge:plates/iron>, <tag:items:forge:chests/wooden>, <tag:items:forge:plates/iron>], 
+                                                                            [<item:biomesoplenty:jacaranda_planks>, <item:biomesoplenty:jacaranda_boat>, <item:biomesoplenty:jacaranda_planks>],
+                                                                            [<item:biomesoplenty:jacaranda_planks>, <item:biomesoplenty:jacaranda_planks>, <item:biomesoplenty:jacaranda_planks>]]); 
+
+craftingTable.addShaped("custom_bop_magic_rowboat", <item:smallships:bop_magic_rowboat>, [[<tag:items:forge:plates/iron>, <tag:items:forge:chests/wooden>, <tag:items:forge:plates/iron>], 
+                                                                            [<item:biomesoplenty:magic_planks>, <item:biomesoplenty:magic_boat>, <item:biomesoplenty:magic_planks>],
+                                                                            [<item:biomesoplenty:magic_planks>, <item:biomesoplenty:magic_planks>, <item:biomesoplenty:magic_planks>]]);  
+
+craftingTable.addShaped("custom_bop_mahogany_rowboat", <item:smallships:bop_mahogany_rowboat>, [[<tag:items:forge:plates/iron>, <tag:items:forge:chests/wooden>, <tag:items:forge:plates/iron>], 
+                                                                            [<item:biomesoplenty:mahogany_planks>, <item:biomesoplenty:mahogany_boat>, <item:biomesoplenty:mahogany_planks>],
+                                                                            [<item:biomesoplenty:mahogany_planks>, <item:biomesoplenty:mahogany_planks>, <item:biomesoplenty:mahogany_planks>]]); 
+
+craftingTable.addShaped("custom_bop_palm_rowboat", <item:smallships:bop_palm_rowboat>, [[<tag:items:forge:plates/iron>, <tag:items:forge:chests/wooden>, <tag:items:forge:plates/iron>], 
+                                                                            [<item:biomesoplenty:palm_planks>, <item:biomesoplenty:palm_boat>, <item:biomesoplenty:palm_planks>],
+                                                                            [<item:biomesoplenty:palm_planks>, <item:biomesoplenty:palm_planks>, <item:biomesoplenty:palm_planks>]]); 
+
+craftingTable.addShaped("custom_bop_redwood_rowboat", <item:smallships:bop_redwood_rowboat>, [[<tag:items:forge:plates/iron>, <tag:items:forge:chests/wooden>, <tag:items:forge:plates/iron>], 
+                                                                            [<item:biomesoplenty:redwood_planks>, <item:biomesoplenty:redwood_boat>, <item:biomesoplenty:redwood_planks>],
+                                                                            [<item:biomesoplenty:redwood_planks>, <item:biomesoplenty:redwood_planks>, <item:biomesoplenty:redwood_planks>]]); 
+
+craftingTable.addShaped("custom_bop_umbran_rowboat", <item:smallships:bop_umbran_rowboat>, [[<tag:items:forge:plates/iron>, <tag:items:forge:chests/wooden>, <tag:items:forge:plates/iron>], 
+                                                                            [<item:biomesoplenty:umbran_planks>, <item:biomesoplenty:umbran_boat>, <item:biomesoplenty:umbran_planks>],
+                                                                            [<item:biomesoplenty:umbran_planks>, <item:biomesoplenty:umbran_planks>, <item:biomesoplenty:umbran_planks>]]); 
+
+craftingTable.addShaped("custom_bop_willow_rowboat", <item:smallships:bop_willow_rowboat>, [[<tag:items:forge:plates/iron>, <tag:items:forge:chests/wooden>, <tag:items:forge:plates/iron>], 
+                                                                            [<item:biomesoplenty:willow_planks>, <item:biomesoplenty:willow_boat>, <item:biomesoplenty:willow_planks>],
+                                                                            [<item:biomesoplenty:willow_planks>, <item:biomesoplenty:willow_planks>, <item:biomesoplenty:willow_planks>]]);                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
