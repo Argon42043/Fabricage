@@ -41,24 +41,23 @@ addNewCraftingRecipeBloodMagic_shapeless("patchouli_guide_book", <item:patchouli
 addNewMixingRecipeBloodMagic_shapeless("patchouli_guide_book", "none", <item:patchouli:guide_book>, [<item:minecraft:book>, <item:tconstruct:blood_slime_ball>]);
 
 addNewCraftingRecipeBloodMagic("bloodmagic_altar", <item:bloodmagic:altar>, [[<item:botania:livingrock>, <item:minecraft:air>, <item:botania:livingrock>],
-                                                                            [<item:botania:livingrock>, <item:minecraft:cauldron>, <item:botania:livingrock>], 
-                                                                            [<tag:items:forge:ingots/elementium>, <tag:items:forge:ingots/elementium>, <tag:items:forge:ingots/elementium>]]);
+                                                                             [<item:botania:livingrock>, <item:minecraft:cauldron>, <item:botania:livingrock>], 
+                                                                             [<tag:items:forge:ingots/elementium>, <tag:items:forge:ingots/elementium>, <tag:items:forge:ingots/elementium>]]);
                                                                         
 addNewAltarRecipe("blank_slate", <item:bloodmagic:blankslate>, <item:botania:livingrock>, 1, 1000, 5, 5);
 
 addNewCraftingRecipeBloodMagic("blank_rune_weak_blood_orb", <item:bloodmagic:blankrune>, [[<item:botania:livingrock>, <item:bloodmagic:blankslate>, <item:botania:livingrock>],
-                                                                            [<item:botania:livingrock>, <item:bloodmagic:weakbloodorb>, <item:botania:livingrock>], 
-                                                                            [<item:botania:livingrock>, <item:botania:livingrock>, <item:botania:livingrock>]]);
+                                                                                          [<item:botania:livingrock>, <item:bloodmagic:weakbloodorb>, <item:botania:livingrock>], 
+                                                                                          [<item:botania:livingrock>, <item:botania:livingrock>, <item:botania:livingrock>]]);
                                                                     
 addNewCraftingRecipeBloodMagic("blank_rune_apprentice_blood_orb", <item:bloodmagic:blankrune>, [[<item:botania:livingrock>, <item:bloodmagic:blankslate>, <item:botania:livingrock>],
-                                                                            [<item:botania:livingrock>, <item:bloodmagic:apprenticebloodorb>, <item:botania:livingrock>], 
-                                                                            [<item:botania:livingrock>, <item:botania:livingrock>, <item:botania:livingrock>]]);    
+                                                                                                [<item:botania:livingrock>, <item:bloodmagic:apprenticebloodorb>, <item:botania:livingrock>], 
+                                                                                                [<item:botania:livingrock>, <item:botania:livingrock>, <item:botania:livingrock>]]);    
 
 addNewCraftingRecipeBloodMagic("blank_rune_magician_blood_orb", <item:bloodmagic:blankrune>, [[<item:botania:livingrock>, <item:bloodmagic:blankslate>, <item:botania:livingrock>],
-                                                                            [<item:botania:livingrock>, <item:bloodmagic:magicianbloodorb>, <item:botania:livingrock>], 
-                                                                            [<item:botania:livingrock>, <item:botania:livingrock>, <item:botania:livingrock>]]);    
+                                                                                              [<item:botania:livingrock>, <item:bloodmagic:magicianbloodorb>, <item:botania:livingrock>], 
+                                                                                              [<item:botania:livingrock>, <item:botania:livingrock>, <item:botania:livingrock>]]);    
 
 addNewCraftingRecipeBloodMagic("blank_rune_master_blood_orb", <item:bloodmagic:blankrune>, [[<item:botania:livingrock>, <item:bloodmagic:blankslate>, <item:botania:livingrock>],
-                                                                            [<item:botania:livingrock>, <item:bloodmagic:masterbloodorb>, <item:botania:livingrock>], 
-                                                                            [<item:botania:livingrock>, <item:botania:livingrock>, <item:botania:livingrock>]]);    
-         
+                                                                                            [<item:botania:livingrock>, <item:bloodmagic:masterbloodorb>, <item:botania:livingrock>], 
+                                                                                            [<item:botania:livingrock>, <item:botania:livingrock>, <item:botania:livingrock>]]);    
