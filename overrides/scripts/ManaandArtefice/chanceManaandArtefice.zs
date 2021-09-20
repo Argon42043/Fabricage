@@ -1,6 +1,8 @@
 import mods.jei.JEI;
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
+import crafttweaker.api.villagers.VillagerTrades;
+
 
 //function to remove and hide item
 function removeAndHideItemManaandArtefice(item as IItemStack) as void{
@@ -14,10 +16,8 @@ val itemsToRemove_ManaandArtefice = [
     <item:mana-and-artifice:vinteum_coated_iron>,
     <item:mana-and-artifice:purified_vinteum_coated_iron>,
     <item:mana-and-artifice:stone_rune_blank>,
-    <item:mana-and-artifice:guide_book>,
     <item:mana-and-artifice:occulus>,
     <item:mana-and-artifice:inscription_table>
-
 ] as IItemStack[];
 
 //for loop for the array
@@ -47,14 +47,10 @@ addNewCraftingRecipeManaandArtefice("stone_rune_blank", <item:mana-and-artifice:
                                                                                                     [<item:mana-and-artifice:stone_rune_blank>, <item:mana-and-artifice:stone_rune_blank>, <item:mana-and-artifice:stone_rune_blank>],
                                                                                                    [<item:minecraft:air>, <item:mana-and-artifice:stone_rune_blank>, <item:minecraft:air>]]);                                                                                                                            
 
-addNewCraftingRecipeManaandArtefice("Codex_Arcana", <item:mana-and-artifice:guide_book>, [[<item:minecraft:book>, <item:botania:terrasteel_ingot>, <item:minecraft:air>],
-                                                                                          [<item:bloodmagic:demonslate>, <item:astralsorcery:resonating_gem>, <item:minecraft:air>],
-                                                                                          [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]]); 
-
 addNewCraftingRecipeManaandArtefice("occulus", <item:mana-and-artifice:occulus>, [[<item:minecraft:air>, <tag:items:forge:glass>, <item:minecraft:air>],
                                                                                   [<tag:items:forge:ingots/manasteel>, <item:mana-and-artifice:vinteum_dust>, <tag:items:forge:ingots/manasteel>],
                                                                                   [<tag:items:botania:livingwood>, <tag:items:botania:livingwood>, <tag:items:botania:livingwood>]]);
 
 addNewCraftingRecipeManaandArtefice("inscription_table", <item:mana-and-artifice:inscription_table>, [[<item:botania:livingwood_planks_slab>, <item:minecraft:ink_sac>, <item:botania:livingwood_planks_slab>],
                                                                                                       [<item:botania:livingwood_planks_slab>, <item:minecraft:paper>, <item:botania:livingwood_planks_slab>],
-                                                                                                      [<item:botania:livingwood_planks>, <item:minecraft:air>, <item:botania:livingwood_planks>]]);                                                                                                                                                                                     
+                                                                                                      [<item:botania:livingwood_planks>, <item:minecraft:air>, <item:botania:livingwood_planks>]]);    
