@@ -1,6 +1,7 @@
 import mods.jei.JEI;
 import crafttweaker.api.item.IItemStack;
 
+//Fuction to remove and hide items
 function removeAndHideItemSmallShips(item as IItemStack) as void{
     craftingTable.removeRecipe(item);
 
@@ -26,7 +27,7 @@ removeAndHideItemSmallShips(<item:smallships:bop_redwood_rowboat>);
 removeAndHideItemSmallShips(<item:smallships:bop_umbran_rowboat>);
 removeAndHideItemSmallShips(<item:smallships:bop_willow_rowboat>);
 
-//New Recipe for Sails
+//New recipe for sails
 <recipetype:create:mechanical_crafting>.addRecipe("costum_sail", <item:smallships:sail_item>, [[<item:minecraft:air>, <item:minecraft:air>, <tag:items:minecraft:logs>, <item:minecraft:air>, <item:minecraft:air>],
                                                                                                 [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:logs>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>],
                                                                                                 [<tag:items:minecraft:wool>, <tag:items:minecraft:wool>, <tag:items:minecraft:logs>, <tag:items:minecraft:wool>, <tag:items:minecraft:wool>],
@@ -35,11 +36,11 @@ removeAndHideItemSmallShips(<item:smallships:bop_willow_rowboat>);
                                                                                                 [<item:mapperbase:bolt>, <item:minecraft:air>, <tag:items:minecraft:logs>, <item:minecraft:air>, <item:mapperbase:bolt>],
                                                                                                 [<item:minecraft:lead>, <item:minecraft:air>, <tag:items:minecraft:logs>, <item:minecraft:air>, <item:minecraft:lead>]]);
 
-//Recreated Ship Recipes for craftingTable
+//Recreated Ship recipes for craftingTable
 craftingTable.addShaped("custom_oak_rowboat", <item:smallships:oak_rowboat>, [[<tag:items:forge:plates/iron>, <tag:items:forge:chests/wooden>, <tag:items:forge:plates/iron>], 
                                                                               [<item:minecraft:oak_planks>, <item:minecraft:oak_boat>, <item:minecraft:oak_planks>],
                                                                               [<item:minecraft:oak_planks>, <item:minecraft:oak_planks>, <item:minecraft:oak_planks>]]);
-//Recreated Ships Recipes for mechanical_crafting
+//Recreated Ships recipes for mechanical_crafting
 <recipetype:create:mechanical_crafting>.addRecipe("mechanical_crafting_oak_rowboat", <item:smallships:oak_rowboat>, [[<tag:items:forge:plates/iron>, <tag:items:forge:chests/wooden>, <tag:items:forge:plates/iron>], 
                                                                                                                     [<item:minecraft:oak_planks>, <item:minecraft:oak_boat>, <item:minecraft:oak_planks>],
                                                                                                                     [<item:minecraft:oak_planks>, <item:minecraft:oak_planks>, <item:minecraft:oak_planks>]]);

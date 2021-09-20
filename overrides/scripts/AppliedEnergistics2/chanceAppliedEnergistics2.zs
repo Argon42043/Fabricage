@@ -2,11 +2,13 @@ import mods.jei.JEI;
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
 
+//function to remove and hide items
 function removeAndHideAppliedEnergistics2(item as IItemStack) as void{
     craftingTable.removeRecipe(item);
     <recipetype:create:mechanical_crafting>.removeRecipe(item);
 }
 
+//array to delete items
 val itemsToRemove_applied_energistics_2 = [
     <item:appliedenergistics2:inscriber>,
     <item:appliedenergistics2:charger>,
@@ -22,15 +24,18 @@ val itemsToRemove_applied_energistics_2 = [
     <item:appliedenergistics2:64k_cell_component>
 ] as IItemStack[];
 
+//for loop to delete all items is the array
 for item in itemsToRemove_applied_energistics_2{
     removeAndHideAppliedEnergistics2(item);
 }
 
+//function for creating new recipes for Craftingtable and mechanical crafting
 function addNewCraftingRecipeAppliedEnergistics2(recipeName as string, item as IItemStack, recipe as IIngredient[][]) as void{
     <recipetype:create:mechanical_crafting>.addRecipe("mechanicalcrafting_"+recipeName, item, recipe);
     craftingTable.addShaped("custom_"+recipeName, item, recipe);
 }
 
+//calling the function
 addNewCraftingRecipeAppliedEnergistics2("inscriber", <item:appliedenergistics2:inscriber>, [[<tag:items:forge:ingots/iron>, <item:minecraft:sticky_piston>, <tag:items:forge:ingots/iron>],
                                                                                             [<tag:items:appliedenergistics2:crystals/fluix>, <item:minecraft:air>, <item:createaddition:electric_motor>], 
                                                                                             [<tag:items:forge:ingots/iron>, <item:minecraft:sticky_piston>, <tag:items:forge:ingots/iron>]]);

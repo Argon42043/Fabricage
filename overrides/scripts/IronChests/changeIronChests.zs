@@ -1,11 +1,13 @@
 import mods.jei.JEI;
 import crafttweaker.api.item.IItemStack;
-import crafttweaker.api.item.IIngredient;
+import crafttweaker.api.item.IIngredient; //is needed for the IIngredient array
 
+//functions to remove and hide items
 function removeAndHideItemIronChests(item as IItemStack) as void{
     craftingTable.removeRecipe(item);
 }
 
+//Array with all items which will be deleted
 val itemsToRemove_iron_chest = [
     <item:ironchest:iron_chest>,
     <item:ironchest:gold_chest>,
@@ -16,15 +18,18 @@ val itemsToRemove_iron_chest = [
     <item:ironchest:crystal_chest>
 ] as IItemStack[];
 
+//loop for all items in the array removeAndHideItemIronChests
 for item in itemsToRemove_iron_chest {
     removeAndHideItemIronChests(item);
 }
 
+//function to create recipe for Craftingtable and mechanical crafting
 function addNewCraftingRecipeIronChests(recipeName as string, item as IItemStack, recipe as IIngredient[][]) as void{
     <recipetype:create:mechanical_crafting>.addRecipe("mechanicalcrafting_"+recipeName, item, recipe);
     craftingTable.addShaped("custom_"+recipeName, item, recipe);
 }
 
+//calls of the fuction to get new recipes
 addNewCraftingRecipeIronChests("iron_chest", <item:ironchest:iron_chest>, [[<item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>],
                                                                            [<tag:items:forge:plates/iron>, <item:minecraft:chest>, <tag:items:forge:plates/iron>],
                                                                            [<item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>]]);
