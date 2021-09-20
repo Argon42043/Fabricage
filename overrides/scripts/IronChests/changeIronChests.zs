@@ -53,13 +53,13 @@ addNewCraftingRecipeIronChests("silver_chest_iron", <item:ironchest:silver_chest
                                                                                     [<tag:items:forge:plates/silver>, <item:ironchest:iron_chest>, <tag:items:forge:plates/silver>],
                                                                                     [<item:minecraft:air>, <tag:items:forge:plates/silver>, <item:minecraft:air>]]);
 
-addNewCraftingRecipeIronChests("diamond_chest_gold", <item:ironchest:diamond_chest>, [[<item:minecraft:air>, <tag:items:forge:gems/diamond>, <item:minecraft:air>],
+addNewCraftingRecipeIronChests("diamond_chest_gold", <item:ironchest:diamond_chest>, [[<item:minecraft:air>, <item:botania:mana_diamond>, <item:minecraft:air>],
                                                                                         [<tag:items:forge:gems/diamond>, <item:ironchest:gold_chest>, <tag:items:forge:gems/diamond>],
-                                                                                        [<item:minecraft:air>, <tag:items:forge:gems/diamond>, <item:minecraft:air>]]); 
+                                                                                        [<item:minecraft:air>, <item:botania:mana_diamond>, <item:minecraft:air>]]); 
 
-addNewCraftingRecipeIronChests("diamond_chest_silver", <item:ironchest:diamond_chest>, [[<tag:items:forge:gems/diamond>, <tag:items:forge:gems/diamond>, <tag:items:forge:gems/diamond>],
+addNewCraftingRecipeIronChests("diamond_chest_silver", <item:ironchest:diamond_chest>, [[<item:botania:mana_diamond>, <tag:items:forge:gems/diamond>, <item:botania:mana_diamond>],
                                                                                         [<item:minecraft:air>, <item:ironchest:silver_chest>, <item:minecraft:air>],
-                                                                                        [<tag:items:forge:gems/diamond>, <tag:items:forge:gems/diamond>, <tag:items:forge:gems/diamond>]]);    
+                                                                                        [<item:botania:mana_diamond>, <tag:items:forge:gems/diamond>, <item:botania:mana_diamond>]]);    
 
 addNewCraftingRecipeIronChests("obsidian_chest", <item:ironchest:obsidian_chest>, [[<item:minecraft:obsidian>, <item:minecraft:obsidian>, <item:minecraft:obsidian>],
                                                                                     [<item:minecraft:crying_obsidian>, <item:ironchest:diamond_chest>, <item:minecraft:crying_obsidian>],
