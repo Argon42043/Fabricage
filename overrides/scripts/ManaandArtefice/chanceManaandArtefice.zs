@@ -5,6 +5,7 @@ import crafttweaker.api.item.IIngredient;
 //function to remove and hide item
 function removeAndHideItemManaandArtefice(item as IItemStack) as void{
     craftingTable.removeRecipe(item);
+    <recipetype:create:mechanical_crafting>.removeRecipe(item);
 }
 
 //array for items to delete

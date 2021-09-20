@@ -1,8 +1,6 @@
 # Islanded 0.1.1
 
-__Modpack-Progress: [####\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_] ca. 20%__
-
-__Map-Progress:     [###\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_] ca. 15%__
+__Modpack-Progress: [##########\_\_\_\_\_\_\_\_\_\_] ca. 50%__
 
 ## Environment / GUI
 - [x] [AppleSkin (by squeek502)](https://www.curseforge.com/minecraft/mc-mods/appleskin)
@@ -120,3 +118,10 @@ __Map-Progress:     [###\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_] ca. 15%__
 - [x] [Uppers (by vadis365)](https://www.curseforge.com/minecraft/mc-mods/uppers)
   
 ![Progressionline](Progressionline.svg)
+
+Extranote:
+
+The Guidebook "Sanguine Scientiem" from Bloodmagic has some issue, because of changs of the recipes. 
+The book can't show some recipes, we can't fix it because of missing commands and missing
+opportunity to change the recipe ID in the Guidebook. 
+Also we can't recreate the original recipe ID because of Crafttweaks.
