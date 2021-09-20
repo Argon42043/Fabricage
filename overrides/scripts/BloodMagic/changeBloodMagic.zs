@@ -13,7 +13,8 @@ val itemsToRemove_blood_magic = [
     <item:patchouli:guide_book>,
     <item:bloodmagic:altar>,
     <item:bloodmagic:blankslate>,
-    <item:bloodmagic:blankrune>
+    <item:bloodmagic:blankrune>,
+    <item:bloodmagic:alchemytable>
 ] as IItemStack[];
 
 for item in itemsToRemove_blood_magic{
@@ -61,3 +62,7 @@ addNewCraftingRecipeBloodMagic("blank_rune_magician_blood_orb", <item:bloodmagic
 addNewCraftingRecipeBloodMagic("blank_rune_master_blood_orb", <item:bloodmagic:blankrune>, [[<item:botania:livingrock>, <item:bloodmagic:blankslate>, <item:botania:livingrock>],
                                                                                             [<item:botania:livingrock>, <item:bloodmagic:masterbloodorb>, <item:botania:livingrock>], 
                                                                                             [<item:botania:livingrock>, <item:botania:livingrock>, <item:botania:livingrock>]]);    
+
+addNewCraftingRecipeBloodMagic("alchemy_table", <item:bloodmagic:alchemytable>, [[<item:botania:livingrock>, <item:botania:livingrock>, <item:botania:livingrock>],
+                                                                                [<tag:items:minecraft:planks>, <item:astralsorcery:starmetal_ingot>, <tag:items:minecraft:planks>],
+                                                                                [<tag:items:forge:ingots/elementium>, <item:bloodmagic:blankslate>, <tag:items:forge:ingots/elementium>]]);
