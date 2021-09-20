@@ -5,7 +5,7 @@ import os
 
 #read manifest
 try:
-    m = open('scripts/manifest.json', 'r')
+    m = open('repodata/manifest.json', 'r')
     manifest = json.load(m)
     m.close()
 except:
@@ -17,8 +17,8 @@ zipfileName = manifest['name'] + '-' + manifest['version'] + '.zip'
 #create zipfile
 zip = ZipFile(zipfileName, 'w')
 #add manifest and modlist
-zip.write('scripts/manifest.json', 'manifest.json')
-zip.write('scripts/modlist.html', 'modlist.html')
+zip.write('repodata/manifest.json', 'manifest.json')
+zip.write('repodata/modlist.html', 'modlist.html')
 
 #add overrides folder recursive
 for dirname, subdirs, files in os.walk('overrides'):

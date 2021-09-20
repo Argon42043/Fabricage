@@ -8,19 +8,19 @@ default:
 	\tmake [server]"
 
 client:
-	./scripts/zip.py
+	./repodata/zip.py
 
 server:
 #create Server dir
 	mkdir -p $(ServerDir)
 #downloading forge
-	./scripts/downloader.py forge $(ServerDir) scripts/manifest.json
+	./repodata/downloader.py forge $(ServerDir) repodata/manifest.json
 #downloading mods
 	mkdir -p $(ServerDir)/mods
-	./scripts/downloader.py mods $(ServerDir)/mods/ scripts/manifest.json scripts/exceptManifest.json
+	./repodata/downloader.py mods $(ServerDir)/mods/ repodata/manifest.json repodata/exceptManifest.json
 #copy overrides and manifest
 	cp -r overrides/* $(ServerDir)
-	cp -r scripts/manifest.json $(ServerDir)
-	cp -r scripts/start.sh $(ServerDir)
+	cp -r repodata/manifest.json $(ServerDir)
+	cp -r repodata/start.sh $(ServerDir)
 #install server
 	cd $(ServerDir); java -jar forge-Installer.jar --installServer

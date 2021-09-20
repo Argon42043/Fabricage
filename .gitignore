@@ -14,7 +14,7 @@
 !overrides
 
 #except Server
-!scripts
+!repodata
 
 #except Progressionline
 !Progressionline.svg
