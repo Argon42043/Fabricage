@@ -2,11 +2,12 @@ import mods.jei.JEI;
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
 
-
+//function to remove and hide item
 function removeAndHideItemManaandArtefice(item as IItemStack) as void{
     craftingTable.removeRecipe(item);
 }
 
+//array for items to delete
 val itemsToRemove_ManaandArtefice = [
     <item:mana-and-artifice:manaweaver_wand>,
     <item:mana-and-artifice:vinteum_coated_iron>,
@@ -14,11 +15,12 @@ val itemsToRemove_ManaandArtefice = [
     <item:mana-and-artifice:stone_rune_blank>
 ] as IItemStack[];
 
+//for loop for the array
 for item in itemsToRemove_ManaandArtefice {
     removeAndHideItemManaandArtefice(item);
 }
 
-// Book of Rote / Occulus / Codex Acana / Inscribing Table
+//function to adding recipes for Craftingtable and mechanical crafting
 function addNewCraftingRecipeManaandArtefice(recipeName as string, item as IItemStack, recipe as IIngredient[][]) as void{
     <recipetype:create:mechanical_crafting>.addRecipe("mechanicalcrafting_"+recipeName, item, recipe);
     craftingTable.addShaped("custom_"+recipeName, item, recipe);
