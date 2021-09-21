@@ -2,30 +2,30 @@ import mods.jei.JEI;
 import crafttweaker.api.item.IItemStack;
 
 //Fuction to remove and hide items
-function removeAndHideItemSmallShips(item as IItemStack) as void{
+function removeItemSmallShips(item as IItemStack) as void{
     craftingTable.removeRecipe(item);
 
 }
 
 //Deleting all Ships without Sails
-removeAndHideItemSmallShips(<item:smallships:sail_item>);
-removeAndHideItemSmallShips(<item:smallships:oak_rowboat>);
-removeAndHideItemSmallShips(<item:smallships:spruce_rowboat>);
-removeAndHideItemSmallShips(<item:smallships:birch_rowboat>);
-removeAndHideItemSmallShips(<item:smallships:jungle_rowboat>);
-removeAndHideItemSmallShips(<item:smallships:acacia_rowboat>);
-removeAndHideItemSmallShips(<item:smallships:dark_oak_rowboat>);
-removeAndHideItemSmallShips(<item:smallships:bop_cherry_rowboat>);
-removeAndHideItemSmallShips(<item:smallships:bop_dead_rowboat>);
-removeAndHideItemSmallShips(<item:smallships:bop_fir_rowboat>);
-removeAndHideItemSmallShips(<item:smallships:bop_hellbark_rowboat>);
-removeAndHideItemSmallShips(<item:smallships:bop_jacaranda_rowboat>);
-removeAndHideItemSmallShips(<item:smallships:bop_magic_rowboat>);
-removeAndHideItemSmallShips(<item:smallships:bop_mahogany_rowboat>);
-removeAndHideItemSmallShips(<item:smallships:bop_palm_rowboat>);
-removeAndHideItemSmallShips(<item:smallships:bop_redwood_rowboat>);
-removeAndHideItemSmallShips(<item:smallships:bop_umbran_rowboat>);
-removeAndHideItemSmallShips(<item:smallships:bop_willow_rowboat>);
+removeItemSmallShips(<item:smallships:sail_item>);
+removeItemSmallShips(<item:smallships:oak_rowboat>);
+removeItemSmallShips(<item:smallships:spruce_rowboat>);
+removeItemSmallShips(<item:smallships:birch_rowboat>);
+removeItemSmallShips(<item:smallships:jungle_rowboat>);
+removeItemSmallShips(<item:smallships:acacia_rowboat>);
+removeItemSmallShips(<item:smallships:dark_oak_rowboat>);
+removeItemSmallShips(<item:smallships:bop_cherry_rowboat>);
+removeItemSmallShips(<item:smallships:bop_dead_rowboat>);
+removeItemSmallShips(<item:smallships:bop_fir_rowboat>);
+removeItemSmallShips(<item:smallships:bop_hellbark_rowboat>);
+removeItemSmallShips(<item:smallships:bop_jacaranda_rowboat>);
+removeItemSmallShips(<item:smallships:bop_magic_rowboat>);
+removeItemSmallShips(<item:smallships:bop_mahogany_rowboat>);
+removeItemSmallShips(<item:smallships:bop_palm_rowboat>);
+removeItemSmallShips(<item:smallships:bop_redwood_rowboat>);
+removeItemSmallShips(<item:smallships:bop_umbran_rowboat>);
+removeItemSmallShips(<item:smallships:bop_willow_rowboat>);
 
 //New recipe for sails
 <recipetype:create:mechanical_crafting>.addRecipe("costum_sail", <item:smallships:sail_item>, [[<item:minecraft:air>, <item:minecraft:air>, <tag:items:minecraft:logs>, <item:minecraft:air>, <item:minecraft:air>],

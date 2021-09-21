@@ -3,7 +3,7 @@ import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient; //is needed for the IIngredient array
 
 //functions to remove and hide items
-function removeAndHideItemIronChests(item as IItemStack) as void{
+function removeItemIronChests(item as IItemStack) as void{
     craftingTable.removeRecipe(item);
 }
 
@@ -20,7 +20,7 @@ val itemsToRemove_iron_chest = [
 
 //loop for all items in the array removeAndHideItemIronChests
 for item in itemsToRemove_iron_chest {
-    removeAndHideItemIronChests(item);
+    removeItemIronChests(item);
 }
 
 //function to create recipe for Craftingtable and mechanical crafting
