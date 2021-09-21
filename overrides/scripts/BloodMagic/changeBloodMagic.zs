@@ -15,7 +15,7 @@ function removeItemBloodMagic(item as IItemStack) as void{
 
 //array for items which have to remove first
 val itemsToRemoveBloodMagic = [
-    <item:patchouli:guide_book>,
+    <item:patchouli:guide_book>.withTag({"patchouli:book": "bloodmagic:guide" as string}),
     <item:bloodmagic:altar>,
     <item:bloodmagic:blankslate>,
     <item:bloodmagic:blankrune>,
@@ -49,10 +49,10 @@ function addNewAltarRecipe(recipeName as string, outputItem as IItemStack, input
 }
 
 //calling function for shapeless crafting
-addNewCraftingRecipeBloodMagic_shapeless("patchouli_guide_book", <item:patchouli:guide_book>, [<item:minecraft:book>, <item:tconstruct:blood_slime_ball>]);
+addNewCraftingRecipeBloodMagic_shapeless("patchouli_guide_book", <item:patchouli:guide_book>.withTag({"patchouli:book": "bloodmagic:guide" as string}), [<item:minecraft:book>, <item:tconstruct:blood_slime_ball>]);
 
 //calling function for shapeless crafting/mixing with Create mod
-addNewMixingRecipeBloodMagic_shapeless("patchouli_guide_book", "none", <item:patchouli:guide_book>, [<item:minecraft:book>, <item:tconstruct:blood_slime_ball>]);
+addNewMixingRecipeBloodMagic_shapeless("patchouli_guide_book", "none", <item:patchouli:guide_book>.withTag({"patchouli:book": "bloodmagic:guide" as string}), [<item:minecraft:book>, <item:tconstruct:blood_slime_ball>]);
 
 addNewCraftingRecipeBloodMagic("bloodmagic_altar", <item:bloodmagic:altar>, [[livingrock, <item:minecraft:air>, livingrock],
                                                                              [livingrock, <item:minecraft:cauldron>, livingrock], 
