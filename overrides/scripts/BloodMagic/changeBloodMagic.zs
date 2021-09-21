@@ -7,14 +7,14 @@ var livingrock = <item:botania:livingrock> as IIngredient;
 var elementium = <tag:items:forge:ingots/elementium> as IIngredient;
 
 //function to remove and hide items
-function removeAndHideItemBloodMagic(item as IItemStack) as void{
+function removeItemBloodMagic(item as IItemStack) as void{
     craftingTable.removeRecipe(item);
     <recipetype:create:mechanical_crafting>.removeRecipe(item);
     <recipetype:bloodmagic:altar>.removeRecipe(item);
 }
 
 //array for items which have to remove first
-val itemsToRemove_blood_magic = [
+val itemsToRemoveBloodMagic = [
     <item:patchouli:guide_book>,
     <item:bloodmagic:altar>,
     <item:bloodmagic:blankslate>,
@@ -23,8 +23,8 @@ val itemsToRemove_blood_magic = [
 ] as IItemStack[];
 
 //for loop for all items in array
-for item in itemsToRemove_blood_magic{
-    removeAndHideItemBloodMagic(item);
+for item in itemsToRemoveBloodMagic{
+    removeItemBloodMagic(item);
 }
 
 //make new recipes for shape crafting with Craftingtable and mechanical crafting

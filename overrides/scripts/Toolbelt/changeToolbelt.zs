@@ -3,11 +3,11 @@ import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
 
 //Function to remove and Hide items
-function removeAndHideItemToolBelt(item as IItemStack) as void{
+function removeItemToolBelt(item as IItemStack) as void{
     craftingTable.removeRecipe(item);
 }
 
-removeAndHideItemToolBelt(<item:toolbelt:pouch>);
+removeItemToolBelt(<item:toolbelt:pouch>);
 
 
 //Function to add a Recipe for normal Craftingtable and for mechanical crafting

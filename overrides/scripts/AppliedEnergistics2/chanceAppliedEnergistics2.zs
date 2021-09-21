@@ -3,7 +3,7 @@ import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
 
 //function to remove and hide items
-function removeAndHideAppliedEnergistics2(item as IItemStack) as void{
+function removeAppliedEnergistics2(item as IItemStack) as void{
     craftingTable.removeRecipe(item);
     <recipetype:create:mechanical_crafting>.removeRecipe(item);
 }
@@ -26,7 +26,7 @@ val itemsToRemove_applied_energistics_2 = [
 
 //for loop to delete all items is the array
 for item in itemsToRemove_applied_energistics_2{
-    removeAndHideAppliedEnergistics2(item);
+    removeAppliedEnergistics2(item);
 }
 
 //function for creating new recipes for Craftingtable and mechanical crafting
