@@ -3,7 +3,7 @@ import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
 import crafttweaker.api.FurnaceManager;
 import crafttweaker.api.BlastFurnaceManager;
-
+import crafttweaker.api.tag.MCTag;
 
 function removeAndHideItem(item as IItemStack) as void{
     //remove construction of item
@@ -64,7 +64,7 @@ removeAndHideItem(<item:notreepunching:red_sandstone_loose_rock>);
 
 //remove wooden tools
 removeAndHideItem(<item:minecraft:wooden_sword>);
-removeAndHideItem(<item:minecraft:wooden_shovel>);
+//removeAndHideItem(<item:minecraft:wooden_shovel>);
 removeAndHideItem(<item:minecraft:wooden_pickaxe>);
 removeAndHideItem(<item:minecraft:wooden_axe>);
 removeAndHideItem(<item:minecraft:wooden_hoe>);
@@ -101,6 +101,30 @@ removeAndHideItem(<item:mapperbase:steel_shovel>);
 removeAndHideItem(<item:mapperbase:steel_pickaxe>);
 removeAndHideItem(<item:mapperbase:steel_axe>);
 removeAndHideItem(<item:mapperbase:steel_hoe>);
+
+################################
+## items which will used once ##
+################################
+
+var leer = <item:minecraft:air> as IItemStack;
+
+function addToolsUsedOnce (recipeName as string, item as IItemStack, recipe as IIngredient[][]) as void {
+    craftingTable.addShaped(recipeName+"_used_once_custum", item, recipe);
+    <recipetype:create:mechanical_crafting>.addRecipe(recipeName+"_used_once_mechanical", item, recipe);
+}
+
+var vanillaToolsUsedOnce = [
+    <item:minecraft:wooden_shovel>
+] as IItemStack[];
+
+for tool in vanillaToolsUsedOnce {
+    tool.maxDamage = 1;
+    tool.addTooltip("§cIt will only used once!");
+}
+
+addToolsUsedOnce("wood_shovel", <item:minecraft:wooden_shovel>, [[leer, leer, <tag:items:minecraft:planks>],
+                                                                [leer, <tag:items:forge:rods/wooden>, leer],
+                                                                [<tag:items:forge:rods/wooden>, leer, leer]]);
 
 ################################
 ## remove smeltery in furnace ##
@@ -165,4 +189,38 @@ var itemsToRemoveFurnace = [
 
 for itemF in itemsToRemoveFurnace {
     furnace.removeRecipeByInput(itemF);
+}
+
+###################################
+## We don't liki minecraft boaty ##
+###################################
+
+function removeAndHideItemBoaty(item as IItemStack) as void{
+    craftingTable.removeRecipe(item);
+    mods.jei.JEI.hideItem(item);
+}
+
+var removeBoaty = [
+    <item:minecraft:oak_boat>,
+    <item:minecraft:spruce_boat>,
+    <item:minecraft:birch_boat>,
+    <item:minecraft:jungle_boat>,
+    <item:minecraft:acacia_boat>,
+    <item:minecraft:dark_oak_boat>,
+    <item:biomesoplenty:fir_boat>,
+    <item:biomesoplenty:redwood_boat>,
+    <item:biomesoplenty:cherry_boat>,
+    <item:biomesoplenty:mahogany_boat>,
+    <item:biomesoplenty:jacaranda_boat>,
+    <item:biomesoplenty:palm_boat>,
+    <item:biomesoplenty:willow_boat>,
+    <item:biomesoplenty:dead_boat>,
+    <item:biomesoplenty:magic_boat>,
+    <item:biomesoplenty:umbran_boat>,
+    <item:biomesoplenty:hellbark_boat>
+] as IItemStack[];
+
+for item in removeBoaty{
+    removeAndHideItemBoaty(item);
+    <tag:items:minecraft:boats>.remove(item);
 }
