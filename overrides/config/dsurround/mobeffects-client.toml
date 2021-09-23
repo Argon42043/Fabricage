@@ -12,7 +12,7 @@
 	#Use first person footstep cadence
 	"First Person Cadence" = true
 	#Generate footsteps as a quadruped (horse)
-	"Footsteps as Quadruped" = true
+	"Footsteps as Quadruped" = false
 	#Enable Footprint particle effects
 	"Enable Footprint Particles" = true
 	#Enable water logged accents for footstep acoustics

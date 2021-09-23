@@ -181,7 +181,7 @@
 	#Should Electric Mushrooms be able to spawn lightning
 	electricPlantsSpawnLightning = true
 	#List of block names of blocks (usally ores) allowed to spawn in geodes
-	geodeOres = ["minecraft:iron_ore", "minecraft:gold_ore", "libvulpes:orecopper", "libvulpes:oretin", "minecraft:redstone_ore"]
+	geodeOres = ["minecraft:iron_ore", "minecraft:gold_ore", "create:copper_ore", "libvulpes:oretin", "minecraft:redstone_ore"]
 	#True if the ores in geodeOres should be a blacklist
 	geodeOres_blacklist = false
 	#If true, then ore-containing geodes are generated on high pressure planets
@@ -203,17 +203,17 @@
 	#Some worlds have a chance of spawning single biomes contained in this list.
 	SingleBiomes = ["minecraft:desert_hills", "minecraft:mushroom_fields", "minecraft:tall_birch_hills", "minecraft:ice_spikes"]
 	EnableOreGen = true
-	GenerateCopper = true
+	GenerateCopper = false
 	CopperPerClump = 6
 	CopperPerChunk = 10
-	GenerateTin = true
+	GenerateTin = false
 	TinPerClump = 6
 	TinPerChunk = 10
 	generateDilithium = true
-	DilithiumPerClump = 16
+	DilithiumPerClump = 10
 	DilithiumPerChunk = 1
 	DilithiumPerChunkLuna = 10
-	generateAluminum = true
+	generateAluminum = false
 	AluminumPerClump = 16
 	AluminumPerChunk = 1
 	generateIridium = false

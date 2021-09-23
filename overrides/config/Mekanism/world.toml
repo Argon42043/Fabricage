@@ -10,7 +10,7 @@
 	#Generation Settings for copper ore.
 	[world_generation.copper]
 		#Determines if copper ore should be added to world generation.
-		shouldGenerate = true
+		shouldGenerate = false
 		#Chance that copper generates in a chunk.
 		#Range: 1 ~ 128
 		perChunk = 16
@@ -73,7 +73,7 @@
 		maxVeinSize = 8
 		#Maximum height (exclusive) that veins of uranium can spawn. Height is calculated by: random.nextInt(maxHeight - topOffset) + bottomOffset
 		#Range: 1 ~ 256
-		maxHeight = 60
+		maxHeight = 30
 		#Top offset for calculating height that veins of uranium can spawn. Height is calculated by: random.nextInt(maxHeight - topOffset) + bottomOffset
 		topOffset = 0
 		#Bottom offset for calculating height that veins of uranium can spawn. Height is calculated by: random.nextInt(maxHeight - topOffset) + bottomOffset
