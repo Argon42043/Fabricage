@@ -43,7 +43,8 @@ function changeCraftingRecipeSmallShips(recipeName as string, item as IItemStack
 }
 
 
-//recipe for sails
+//change recipe for sails
+craftingTable.removeRecipe(<item:smallships:sail_item>);
 <recipetype:create:mechanical_crafting>.addRecipe("costum_sail", <item:smallships:sail_item>, [
     [air,       air,        logs,   air,      air],
     [planks,    planks,     logs,   planks,   planks],
@@ -54,7 +55,7 @@ function changeCraftingRecipeSmallShips(recipeName as string, item as IItemStack
     [lead,      air,        logs,   air,        lead]
 ]);
 
-//recipe for rowboats
+//change recipe for rowboats
 for rowboat in rowboats{
     changeCraftingRecipeSmallShips(rowboat[0].translationKey, rowboat[0],[
         [ironPlates,    chest,      ironPlates], 
