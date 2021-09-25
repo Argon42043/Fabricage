@@ -15,6 +15,7 @@ var shovel         = <item:minecraft:wooden_shovel>    as IIngredient;
 var sail           = <item:smallships:sail_item>       as IIngredient;
 var stringi        = <item:minecraft:string>           as IIngredient;
 var tripwire_hook  = <item:minecraft:tripwire_hook>    as IIngredient;
+var iron_chest     = <item:ironchest:iron_chest>       as IIngredient;
 
 //data for rowboats
 val rowboats = [
@@ -53,7 +54,7 @@ val cogs = [
     [<item:smallships:bop_mahogany_cog>, <item:smallships:bop_mahogany_rowboat>,],
     [<item:smallships:bop_palm_cog>, <item:smallships:bop_palm_rowboat>,],
     [<item:smallships:bop_redwood_cog>, <item:smallships:bop_redwood_rowboat>,],
-    [<item:smallships:bop_umbran_cog>, <item:biomesoplenty:umbran_planks>,],
+    [<item:smallships:bop_umbran_cog>, <item:smallships:bop_umbran_rowboat>,],
     [<item:smallships:bop_willow_cog>, <item:smallships:bop_willow_rowboat>,],
 ] as IItemStack[][];
 
@@ -73,7 +74,7 @@ val galleys = [
     [<item:smallships:bop_mahogany_galley>, <item:smallships:bop_mahogany_rowboat>,],
     [<item:smallships:bop_palm_galley>, <item:smallships:bop_palm_rowboat>,],
     [<item:smallships:bop_redwood_galley>, <item:smallships:bop_redwood_rowboat>,],
-    [<item:smallships:bop_umbran_galley>, <item:biomesoplenty:umbran_planks>,],
+    [<item:smallships:bop_umbran_galley>, <item:smallships:bop_umbran_rowboat>,],
     [<item:smallships:bop_willow_galley>, <item:smallships:bop_willow_rowboat>,],
 ] as IItemStack[][];
 
@@ -95,7 +96,7 @@ val drakkars = [
     [<item:smallships:bop_mahogany_drakkar>, <item:smallships:bop_mahogany_rowboat>,],
     [<item:smallships:bop_palm_drakkar>, <item:smallships:bop_palm_rowboat>,],
     [<item:smallships:bop_redwood_drakkar>, <item:smallships:bop_redwood_rowboat>,],
-    [<item:smallships:bop_umbran_drakkar>, <item:biomesoplenty:umbran_planks>,],
+    [<item:smallships:bop_umbran_drakkar>, <item:smallships:bop_umbran_rowboat>,],
     [<item:smallships:bop_willow_drakkar>, <item:smallships:bop_willow_rowboat>,],
 ] as IItemStack[][];
 
@@ -115,7 +116,7 @@ val briggs = [
     [<item:smallships:bop_mahogany_brigg>, <item:smallships:bop_mahogany_rowboat>,],
     [<item:smallships:bop_palm_brigg>, <item:smallships:bop_palm_rowboat>,],
     [<item:smallships:bop_redwood_brigg>, <item:smallships:bop_redwood_rowboat>,],
-    [<item:smallships:bop_umbran_brigg>, <item:biomesoplenty:umbran_planks>,],
+    [<item:smallships:bop_umbran_brigg>, <item:smallships:bop_umbran_rowboat>,],
     [<item:smallships:bop_willow_brigg>, <item:smallships:bop_willow_rowboat>,],
 ] as IItemStack[][];
 
@@ -135,8 +136,28 @@ val dhows = [
     [<item:smallships:bop_mahogany_dhow>, <item:smallships:bop_mahogany_rowboat>,],
     [<item:smallships:bop_palm_dhow>, <item:smallships:bop_palm_rowboat>,],
     [<item:smallships:bop_redwood_dhow>, <item:smallships:bop_redwood_rowboat>,],
-    [<item:smallships:bop_umbran_dhow>, <item:biomesoplenty:umbran_planks>,],
+    [<item:smallships:bop_umbran_dhow>, <item:smallships:bop_umbran_rowboat>,],
     [<item:smallships:bop_willow_dhow>, <item:smallships:bop_willow_rowboat>,],
+] as IItemStack[][];
+
+val war_galleys = [
+    [<item:smallships:oak_war_galley>, <item:smallships:oak_galley>],
+    [<item:smallships:spruce_war_galley>, <item:smallships:spruce_galley>],
+    [<item:smallships:birch_war_galley>, <item:smallships:birch_galley>],
+    [<item:smallships:jungle_war_galley>, <item:smallships:jungle_galley>],
+    [<item:smallships:acacia_war_galley>, <item:smallships:acacia_galley>],
+    [<item:smallships:dark_oak_war_galley>, <item:smallships:dark_oak_galley>],
+    [<item:smallships:bop_cherry_war_galley>, <item:smallships:bop_cherry_galley>,],
+    [<item:smallships:bop_dead_war_galley>, <item:smallships:bop_dead_galley>,],
+    [<item:smallships:bop_fir_war_galley>, <item:smallships:bop_fir_galley>,],
+    [<item:smallships:bop_hellbark_war_galley>, <item:smallships:bop_hellbark_galley>,],
+    [<item:smallships:bop_jacaranda_war_galley>, <item:smallships:bop_jacaranda_galley>,],
+    [<item:smallships:bop_magic_war_galley>, <item:smallships:bop_magic_galley>,],
+    [<item:smallships:bop_mahogany_war_galley>, <item:smallships:bop_mahogany_galley>,],
+    [<item:smallships:bop_palm_war_galley>, <item:smallships:bop_palm_galley>,],
+    [<item:smallships:bop_redwood_war_galley>, <item:smallships:bop_redwood_galley>,],
+    [<item:smallships:bop_umbran_war_galley>, <item:smallships:bop_umbran_galley>,],
+    [<item:smallships:bop_willow_war_galley>, <item:smallships:bop_willow_galley>,],
 ] as IItemStack[][];
 
 //changes recipe and adds it to boats tag
@@ -171,40 +192,48 @@ for rowboat in rowboats{
 
 for cog in cogs{
     changeCraftingRecipeSmallShips(cog[0].translationKey, cog[0],[
-        [stringi ,    stringi ,      stringi ], 
-        [chest   ,    sail    ,      chest   ],
-        [cog[1]  ,    cog[1]  ,      cog[1]]
+        [stringi    ,    stringi ,      stringi ], 
+        [iron_chest ,    sail    ,      iron_chest   ],
+        [cog[1]     ,    cog[1]  ,      cog[1]]
     ]);
 }
 
 for galley in galleys{
     changeCraftingRecipeSmallShips(galley[0].translationKey, galley[0],[
-        [lead         ,    sail     ,  lead], 
-        [tripwire_hook,    chest    ,  tripwire_hook   ],
-        [galley[1]    ,    galley[1],  galley[1]]
+        [lead         ,    sail       ,  lead], 
+        [tripwire_hook,    iron_chest ,  tripwire_hook   ],
+        [galley[1]    ,    galley[1]  ,  galley[1]]
     ]);
 }
 
 for drakkar in drakkars{
     changeCraftingRecipeSmallShips(drakkar[0].translationKey, drakkar[0],[
-        [stringi   ,    sail      ,  stringi ], 
-        [lead      ,    chest     ,  lead   ],
-        [drakkar[1],    drakkar[1],  drakkar[1]]
+        [stringi   ,    sail        ,  stringi ], 
+        [lead      ,    iron_chest  ,  lead   ],
+        [drakkar[1],    drakkar[1]  ,  drakkar[1]]
     ]);
 }
 
 for brigg in briggs{
     changeCraftingRecipeSmallShips(brigg[0].translationKey, brigg[0],[
-        [lead    ,    chest   ,  lead], 
-        [sail    ,    chest   ,  sail   ],
-        [brigg[1],    brigg[1],  brigg[1]]
+        [lead    ,    iron_chest   ,  lead], 
+        [sail    ,    iron_chest   ,  sail   ],
+        [brigg[1],    brigg[1]     ,  brigg[1]]
     ]);
 }
 
 for dhow in dhows{
     changeCraftingRecipeSmallShips(dhow[0].translationKey, dhow[0],[
         [lead   ,    stringi    , lead], 
-        [sail   ,    chest      , sail   ],
+        [sail   ,    iron_chest , sail   ],
         [dhow[1],    dhow[1]    , dhow[1]]
+    ]);
+}
+
+for war_galley in war_galleys{
+    changeCraftingRecipeSmallShips(war_galley[0].translationKey, war_galley[0],[
+        [stringi,    sail, stringi], 
+        [lead,    <item:ironchest:diamond_chest>, lead   ],
+        [tripwire_hook[1],    war_galley[1], tripwire_hook[1]]
     ]);
 }
