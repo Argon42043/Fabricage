@@ -3,15 +3,18 @@ import crafttweaker.api.item.IIngredient;
 import crafttweaker.api.tag.MCTag;
 
 //item variables
-var air         = <item:minecraft:air>              as IIngredient;
-var planks      = <tag:items:minecraft:planks>      as IIngredient;
-var logs        = <tag:items:minecraft:logs>        as IIngredient;
-var fabric      = <tag:items:forge:fabric_hemp>     as IIngredient;
-var bolt        = <item:mapperbase:bolt>            as IIngredient;
-var lead        = <item:minecraft:lead>             as IIngredient;
-var ironPlates  = <tag:items:forge:plates/iron>     as IIngredient;
-var chest       = <tag:items:forge:chests/wooden>   as IIngredient;
-var shovel      = <item:minecraft:wooden_shovel>    as IIngredient;
+var air            = <item:minecraft:air>              as IIngredient;
+var planks         = <tag:items:minecraft:planks>      as IIngredient;
+var logs           = <tag:items:minecraft:logs>        as IIngredient;
+var fabric         = <tag:items:forge:fabric_hemp>     as IIngredient;
+var bolt           = <item:mapperbase:bolt>            as IIngredient;
+var lead           = <item:minecraft:lead>             as IIngredient;
+var ironPlates     = <tag:items:forge:plates/iron>     as IIngredient;
+var chest          = <tag:items:forge:chests/wooden>   as IIngredient;
+var shovel         = <item:minecraft:wooden_shovel>    as IIngredient;
+var sail           = <item:smallships:sail_item>       as IIngredient;
+var stringi        = <item:minecraft:string>           as IIngredient;
+var tripwire_hook  = <item:minecraft:tripwire_hook>    as IIngredient;
 
 //data for rowboats
 val rowboats = [
@@ -32,6 +35,108 @@ val rowboats = [
     [<item:smallships:bop_redwood_rowboat>, <item:biomesoplenty:redwood_planks>,],
     [<item:smallships:bop_umbran_rowboat>, <item:biomesoplenty:umbran_planks>,],
     [<item:smallships:bop_willow_rowboat>, <item:biomesoplenty:willow_planks>,],
+] as IItemStack[][];
+
+val cogs = [
+    [<item:smallships:oak_cog>, <item:smallships:oak_rowboat>],
+    [<item:smallships:spruce_cog>, <item:smallships:spruce_rowboat>],
+    [<item:smallships:birch_cog>, <item:smallships:birch_rowboat>],
+    [<item:smallships:jungle_cog>, <item:smallships:jungle_rowboat>],
+    [<item:smallships:acacia_cog>, <item:smallships:acacia_rowboat>],
+    [<item:smallships:dark_oak_cog>, <item:smallships:dark_oak_rowboat>],
+    [<item:smallships:bop_cherry_cog>, <item:smallships:bop_cherry_rowboat>,],
+    [<item:smallships:bop_dead_cog>, <item:smallships:bop_dead_rowboat>,],
+    [<item:smallships:bop_fir_cog>, <item:smallships:bop_fir_rowboat>,],
+    [<item:smallships:bop_hellbark_cog>, <item:smallships:bop_hellbark_rowboat>,],
+    [<item:smallships:bop_jacaranda_cog>, <item:smallships:bop_jacaranda_rowboat>,],
+    [<item:smallships:bop_magic_cog>, <item:smallships:bop_magic_rowboat>,],
+    [<item:smallships:bop_mahogany_cog>, <item:smallships:bop_mahogany_rowboat>,],
+    [<item:smallships:bop_palm_cog>, <item:smallships:bop_palm_rowboat>,],
+    [<item:smallships:bop_redwood_cog>, <item:smallships:bop_redwood_rowboat>,],
+    [<item:smallships:bop_umbran_cog>, <item:biomesoplenty:umbran_planks>,],
+    [<item:smallships:bop_willow_cog>, <item:smallships:bop_willow_rowboat>,],
+] as IItemStack[][];
+
+val galleys = [
+    [<item:smallships:oak_galley>, <item:smallships:oak_rowboat>],
+    [<item:smallships:spruce_galley>, <item:smallships:spruce_rowboat>],
+    [<item:smallships:birch_galley>, <item:smallships:birch_rowboat>],
+    [<item:smallships:jungle_galley>, <item:smallships:jungle_rowboat>],
+    [<item:smallships:acacia_galley>, <item:smallships:acacia_rowboat>],
+    [<item:smallships:dark_oak_galley>, <item:smallships:dark_oak_rowboat>],
+    [<item:smallships:bop_cherry_galley>, <item:smallships:bop_cherry_rowboat>,],
+    [<item:smallships:bop_dead_galley>, <item:smallships:bop_dead_rowboat>,],
+    [<item:smallships:bop_fir_galley>, <item:smallships:bop_fir_rowboat>,],
+    [<item:smallships:bop_hellbark_galley>, <item:smallships:bop_hellbark_rowboat>,],
+    [<item:smallships:bop_jacaranda_galley>, <item:smallships:bop_jacaranda_rowboat>,],
+    [<item:smallships:bop_magic_galley>, <item:smallships:bop_magic_rowboat>,],
+    [<item:smallships:bop_mahogany_galley>, <item:smallships:bop_mahogany_rowboat>,],
+    [<item:smallships:bop_palm_galley>, <item:smallships:bop_palm_rowboat>,],
+    [<item:smallships:bop_redwood_galley>, <item:smallships:bop_redwood_rowboat>,],
+    [<item:smallships:bop_umbran_galley>, <item:biomesoplenty:umbran_planks>,],
+    [<item:smallships:bop_willow_galley>, <item:smallships:bop_willow_rowboat>,],
+] as IItemStack[][];
+
+
+
+val drakkars = [
+    [<item:smallships:oak_drakkar>, <item:smallships:oak_rowboat>],
+    [<item:smallships:spruce_drakkar>, <item:smallships:spruce_rowboat>],
+    [<item:smallships:birch_drakkar>, <item:smallships:birch_rowboat>],
+    [<item:smallships:jungle_drakkar>, <item:smallships:jungle_rowboat>],
+    [<item:smallships:acacia_drakkar>, <item:smallships:acacia_rowboat>],
+    [<item:smallships:dark_oak_drakkar>, <item:smallships:dark_oak_rowboat>],
+    [<item:smallships:bop_cherry_drakkar>, <item:smallships:bop_cherry_rowboat>,],
+    [<item:smallships:bop_dead_drakkar>, <item:smallships:bop_dead_rowboat>,],
+    [<item:smallships:bop_fir_drakkar>, <item:smallships:bop_fir_rowboat>,],
+    [<item:smallships:bop_hellbark_drakkar>, <item:smallships:bop_hellbark_rowboat>,],
+    [<item:smallships:bop_jacaranda_drakkar>, <item:smallships:bop_jacaranda_rowboat>,],
+    [<item:smallships:bop_magic_drakkar>, <item:smallships:bop_magic_rowboat>,],
+    [<item:smallships:bop_mahogany_drakkar>, <item:smallships:bop_mahogany_rowboat>,],
+    [<item:smallships:bop_palm_drakkar>, <item:smallships:bop_palm_rowboat>,],
+    [<item:smallships:bop_redwood_drakkar>, <item:smallships:bop_redwood_rowboat>,],
+    [<item:smallships:bop_umbran_drakkar>, <item:biomesoplenty:umbran_planks>,],
+    [<item:smallships:bop_willow_drakkar>, <item:smallships:bop_willow_rowboat>,],
+] as IItemStack[][];
+
+val briggs = [
+    [<item:smallships:oak_brigg>, <item:smallships:oak_rowboat>],
+    [<item:smallships:spruce_brigg>, <item:smallships:spruce_rowboat>],
+    [<item:smallships:birch_brigg>, <item:smallships:birch_rowboat>],
+    [<item:smallships:jungle_brigg>, <item:smallships:jungle_rowboat>],
+    [<item:smallships:acacia_brigg>, <item:smallships:acacia_rowboat>],
+    [<item:smallships:dark_oak_brigg>, <item:smallships:dark_oak_rowboat>],
+    [<item:smallships:bop_cherry_brigg>, <item:smallships:bop_cherry_rowboat>,],
+    [<item:smallships:bop_dead_brigg>, <item:smallships:bop_dead_rowboat>,],
+    [<item:smallships:bop_fir_brigg>, <item:smallships:bop_fir_rowboat>,],
+    [<item:smallships:bop_hellbark_brigg>, <item:smallships:bop_hellbark_rowboat>,],
+    [<item:smallships:bop_jacaranda_brigg>, <item:smallships:bop_jacaranda_rowboat>,],
+    [<item:smallships:bop_magic_brigg>, <item:smallships:bop_magic_rowboat>,],
+    [<item:smallships:bop_mahogany_brigg>, <item:smallships:bop_mahogany_rowboat>,],
+    [<item:smallships:bop_palm_brigg>, <item:smallships:bop_palm_rowboat>,],
+    [<item:smallships:bop_redwood_brigg>, <item:smallships:bop_redwood_rowboat>,],
+    [<item:smallships:bop_umbran_brigg>, <item:biomesoplenty:umbran_planks>,],
+    [<item:smallships:bop_willow_brigg>, <item:smallships:bop_willow_rowboat>,],
+] as IItemStack[][];
+
+val dhows = [
+    [<item:smallships:oak_dhow>, <item:smallships:oak_rowboat>],
+    [<item:smallships:spruce_dhow>, <item:smallships:spruce_rowboat>],
+    [<item:smallships:birch_dhow>, <item:smallships:birch_rowboat>],
+    [<item:smallships:jungle_dhow>, <item:smallships:jungle_rowboat>],
+    [<item:smallships:acacia_dhow>, <item:smallships:acacia_rowboat>],
+    [<item:smallships:dark_oak_dhow>, <item:smallships:dark_oak_rowboat>],
+    [<item:smallships:bop_cherry_dhow>, <item:smallships:bop_cherry_rowboat>,],
+    [<item:smallships:bop_dead_dhow>, <item:smallships:bop_dead_rowboat>,],
+    [<item:smallships:bop_fir_dhow>, <item:smallships:bop_fir_rowboat>,],
+    [<item:smallships:bop_hellbark_dhow>, <item:smallships:bop_hellbark_rowboat>,],
+    [<item:smallships:bop_jacaranda_dhow>, <item:smallships:bop_jacaranda_rowboat>,],
+    [<item:smallships:bop_magic_dhow>, <item:smallships:bop_magic_rowboat>,],
+    [<item:smallships:bop_mahogany_dhow>, <item:smallships:bop_mahogany_rowboat>,],
+    [<item:smallships:bop_palm_dhow>, <item:smallships:bop_palm_rowboat>,],
+    [<item:smallships:bop_redwood_dhow>, <item:smallships:bop_redwood_rowboat>,],
+    [<item:smallships:bop_umbran_dhow>, <item:biomesoplenty:umbran_planks>,],
+    [<item:smallships:bop_willow_dhow>, <item:smallships:bop_willow_rowboat>,],
 ] as IItemStack[][];
 
 //changes recipe and adds it to boats tag
@@ -61,5 +166,45 @@ for rowboat in rowboats{
         [ironPlates,    chest,      ironPlates], 
         [rowboat[1],    shovel,     rowboat[1]],
         [rowboat[1],    rowboat[1], rowboat[1]]
+    ]);
+}
+
+for cog in cogs{
+    changeCraftingRecipeSmallShips(cog[0].translationKey, cog[0],[
+        [stringi ,    stringi ,      stringi ], 
+        [chest   ,    sail    ,      chest   ],
+        [cog[1]  ,    cog[1]  ,      cog[1]]
+    ]);
+}
+
+for galley in galleys{
+    changeCraftingRecipeSmallShips(galley[0].translationKey, galley[0],[
+        [lead         ,    sail     ,  lead], 
+        [tripwire_hook,    chest    ,  tripwire_hook   ],
+        [galley[1]    ,    galley[1],  galley[1]]
+    ]);
+}
+
+for drakkar in drakkars{
+    changeCraftingRecipeSmallShips(drakkar[0].translationKey, drakkar[0],[
+        [stringi   ,    sail      ,  stringi ], 
+        [lead      ,    chest     ,  lead   ],
+        [drakkar[1],    drakkar[1],  drakkar[1]]
+    ]);
+}
+
+for brigg in briggs{
+    changeCraftingRecipeSmallShips(brigg[0].translationKey, brigg[0],[
+        [lead    ,    chest   ,  lead], 
+        [sail    ,    chest   ,  sail   ],
+        [brigg[1],    brigg[1],  brigg[1]]
+    ]);
+}
+
+for dhow in dhows{
+    changeCraftingRecipeSmallShips(dhow[0].translationKey, dhow[0],[
+        [lead   ,    stringi    , lead], 
+        [sail   ,    chest      , sail   ],
+        [dhow[1],    dhow[1]    , dhow[1]]
     ]);
 }
