@@ -11,6 +11,8 @@ client:
 	./repodata/zip.py
 
 server:
+#download jq
+	sudo apt install jq
 #create Server dir
 	mkdir -p $(ServerDir)
 #downloading forge
@@ -24,3 +26,5 @@ server:
 	cp -r repodata/start.sh $(ServerDir)
 #install server
 	cd $(ServerDir); java -jar forge-Installer.jar --installServer
+#permission start.sh
+	chmod +X start.sh
