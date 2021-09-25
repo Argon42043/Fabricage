@@ -234,6 +234,6 @@ for war_galley in war_galleys{
     changeCraftingRecipeSmallShips(war_galley[0].translationKey, war_galley[0],[
         [stringi,    sail, stringi], 
         [lead,    <item:ironchest:diamond_chest>, lead   ],
-        [tripwire_hook[1],    war_galley[1], tripwire_hook[1]]
+        [tripwire_hook,    war_galley[1], tripwire_hook]
     ]);
 }
