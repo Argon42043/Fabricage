@@ -16,6 +16,7 @@ var sail           = <item:smallships:sail_item>       as IIngredient;
 var stringi        = <item:minecraft:string>           as IIngredient;
 var tripwire_hook  = <item:minecraft:tripwire_hook>    as IIngredient;
 var iron_chest     = <item:ironchest:iron_chest>       as IIngredient;
+var diamond_chest  = <item:ironchest:diamond_chest>    as IIngredient;
 
 //data for rowboats
 val rowboats = [
@@ -192,48 +193,48 @@ for rowboat in rowboats{
 
 for cog in cogs{
     changeCraftingRecipeSmallShips(cog[0].translationKey, cog[0],[
-        [stringi    ,    stringi ,      stringi ], 
-        [iron_chest ,    sail    ,      iron_chest   ],
-        [cog[1]     ,    cog[1]  ,      cog[1]]
+        [stringi,        stringi,       stringi], 
+        [iron_chest,     sail,          iron_chest],
+        [cog[1],         cog[1],        cog[1]]
     ]);
 }
 
 for galley in galleys{
     changeCraftingRecipeSmallShips(galley[0].translationKey, galley[0],[
-        [lead         ,    sail       ,  lead], 
-        [tripwire_hook,    iron_chest ,  tripwire_hook   ],
-        [galley[1]    ,    galley[1]  ,  galley[1]]
+        [lead,             sail,         lead], 
+        [tripwire_hook,    iron_chest,   tripwire_hook],
+        [galley[1],        galley[1],    galley[1]]
     ]);
 }
 
 for drakkar in drakkars{
     changeCraftingRecipeSmallShips(drakkar[0].translationKey, drakkar[0],[
-        [stringi   ,    sail        ,  stringi ], 
-        [lead      ,    iron_chest  ,  lead   ],
-        [drakkar[1],    drakkar[1]  ,  drakkar[1]]
+        [stringi,       sail,          stringi ], 
+        [lead,          iron_chest,    lead   ],
+        [drakkar[1],    drakkar[1],    drakkar[1]]
     ]);
 }
 
 for brigg in briggs{
     changeCraftingRecipeSmallShips(brigg[0].translationKey, brigg[0],[
-        [lead    ,    iron_chest   ,  lead], 
-        [sail    ,    iron_chest   ,  sail   ],
-        [brigg[1],    brigg[1]     ,  brigg[1]]
+        [lead,        iron_chest,     lead], 
+        [sail,        iron_chest,     sail],
+        [brigg[1],    brigg[1],       brigg[1]]
     ]);
 }
 
 for dhow in dhows{
     changeCraftingRecipeSmallShips(dhow[0].translationKey, dhow[0],[
-        [lead   ,    stringi    , lead], 
-        [sail   ,    iron_chest , sail   ],
-        [dhow[1],    dhow[1]    , dhow[1]]
+        [lead,       stringi,     lead], 
+        [sail,       iron_chest,  sail],
+        [dhow[1],    dhow[1],     dhow[1]]
     ]);
 }
 
 for war_galley in war_galleys{
     changeCraftingRecipeSmallShips(war_galley[0].translationKey, war_galley[0],[
-        [stringi,    sail, stringi], 
-        [lead,    <item:ironchest:diamond_chest>, lead   ],
-        [tripwire_hook,    war_galley[1], tripwire_hook]
+        [stringi,          sail,             stringi], 
+        [lead,             diamond_chest,    lead],
+        [tripwire_hook,    war_galley[1],    tripwire_hook]
     ]);
 }
