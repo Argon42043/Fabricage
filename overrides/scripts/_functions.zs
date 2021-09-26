@@ -1,10 +1,14 @@
+import crafttweaker.api.item.IIngredient;
 import crafttweaker.api.item.IItemStack;
+import crafttweaker.api.item.MCItemDefinition;
 import crafttweaker.api.game.MCGame;
 import crafttweaker.api.registries.IRecipeManager;
-import crafttweaker.api.tag.TagManager;
 import mods.jei.JEI;
 
-function removeAndHide(item as IItemStack) as void {
+import crafttweaker.api.tag.TagManager;
+
+
+function removeItem(item as IItemStack) as void {
     //recipetypes not removable by IItemStack
     val dontRemove = [
         <recipetype:immersiveengineering:mixer>,
@@ -29,11 +33,33 @@ function removeAndHide(item as IItemStack) as void {
         }
     }
 
-    //remove all tags from item
-    for tag in item.definition.getTags() {
+    for tag in <tag:items:forge:stone>.getManager().all {
         tag.remove(item);
     }
-    
+}
+
+
+
+function removeAndHideItem(item as IItemStack) as void {
+    removeItem(item);
     //hide item
     JEI.hideItem(item);
+}
+
+
+function addCraftingRecipe(recipeName as string, output as IItemStack, ingredients as IIngredient[][]) as void {
+    craftingTable.addShaped("custom_" + recipeName, output, ingredients);
+    <recipetype:create:mechanical_crafting>.addRecipe("mechanical_crafting_" + recipeName, output, ingredients);
+}
+
+
+function changeCraftingRecipe(recipeName as string, output as IItemStack, ingredients as IIngredient[][]) as void {
+    craftingTable.removeRecipe(output);
+    addCraftingRecipe(recipeName, output, ingredients);
+}
+
+
+function useOnlyOnce(item as IItemStack) as void {
+    item.maxDamage = 1;
+    item.addTooltip("§cBe careful, it's fragile!");
 }

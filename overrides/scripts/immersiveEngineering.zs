@@ -1,6 +1,18 @@
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
 
+val removeItem = [
+    <item:immersiveengineering:sword_steel>,
+    <item:immersiveengineering:shovel_steel>,
+    <item:immersiveengineering:pickaxe_steel>,
+    <item:immersiveengineering:axe_steel>,
+    <item:immersiveengineering:hoe_steel>
+] as IItemStack[];
+
+for item in removeItem {
+    removeAndHideItem(item);
+}
+
 //Recipe for Crafting table and mechanical Crafter
 function changeCraftingRecipeImmersiveEngineering(recipeName as string, output as IItemStack, ingredients as IIngredient[][]) as void{
     craftingTable.removeRecipe(output);
