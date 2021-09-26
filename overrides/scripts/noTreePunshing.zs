@@ -1,4 +1,26 @@
+import crafttweaker.api.item.IItemStack;
 import mods.jei.JEI;
+
+val removeStones = [
+    <item:notreepunching:andesite_cobblestone>,
+    <item:notreepunching:diorite_cobblestone>,
+    <item:notreepunching:granite_cobblestone>,
+    <item:notreepunching:andesite_cobblestone_stairs>,
+    <item:notreepunching:diorite_cobblestone_stairs>,
+    <item:notreepunching:granite_cobblestone_stairs>,
+    <item:notreepunching:andesite_cobblestone_slab>,
+    <item:notreepunching:diorite_cobblestone_slab>,
+    <item:notreepunching:granite_cobblestone_slab>,
+    <item:notreepunching:andesite_cobblestone_wall>,
+    <item:notreepunching:diorite_cobblestone_wall>,
+    <item:notreepunching:granite_cobblestone_wall>,
+    <item:notreepunching:andesite_loose_rock>,
+    <item:notreepunching:diorite_loose_rock>,
+    <item:notreepunching:granite_loose_rock>,
+    <item:notreepunching:stone_loose_rock>,
+    <item:notreepunching:sandstone_loose_rock>,
+    <item:notreepunching:red_sandstone_loose_rock>
+] as IItemStack[];
 
 //flint shard description
 mods.jei.JEI.addInfo(<item:notreepunching:flint_shard>,["knock flint on a stone to get flint shards"]);
@@ -6,16 +28,7 @@ mods.jei.JEI.addInfo(<item:notreepunching:flint_shard>,["knock flint on a stone 
 //clay tool description
 mods.jei.JEI.addInfo(<item:notreepunching:clay_tool>,["use this tool on clay to shape it into some more useful things"]);
 
-//recipe for unlit campfire
-craftingTable.addShaped("custom.notreepunching.campfire", <item:minecraft:campfire>.withTag({BlockStateTag:{lit:"false"}}),[
-    [<item:minecraft:air>, <tag:items:forge:rods/wooden>, <item:minecraft:air>],
-    [<tag:items:forge:rods/wooden>, <tag:items:minecraft:coals>, <tag:items:forge:rods/wooden>],
-    [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>]
-]);
-
-//recipe for unlit soul_campfire
-craftingTable.addShaped("custom.notreepunching.soul_campfire", <item:minecraft:soul_campfire>.withTag({BlockStateTag:{lit:"false"}}),[
-    [<item:minecraft:air>, <tag:items:forge:rods/wooden>, <item:minecraft:air>],
-    [<tag:items:forge:rods/wooden>, <item:minecraft:soul_sand>, <tag:items:forge:rods/wooden>],
-    [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>]
-]);
+//remove cobblestone variants
+for stone in removeStones {
+    removeAndHideItem(stone);
+}
