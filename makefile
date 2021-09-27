@@ -1,18 +1,21 @@
 MAKEFLAGS += --silent
 
 ServerDir = "../IslandedServer"
+JQ := $(shell which jq > /dev/null; echo $$?)
 
 default:
 	echo "Syntax:\n\
-	\tmake [client]\n\
-	\tmake [server]"
+	\tmake client\n\
+	\tmake server"
 
 client:
 	./repodata/zip.py
 
 server:
 #download jq
-	sudo apt install jq
+	if [ $(JQ) -eq 1 ]; then\
+		sudo apt install jq;\
+	fi
 #create Server dir
 	mkdir -p $(ServerDir)
 #downloading forge
@@ -21,10 +24,9 @@ server:
 	mkdir -p $(ServerDir)/mods
 	./repodata/downloader.py mods $(ServerDir)/mods/ repodata/manifest.json repodata/exceptManifest.json
 #copy overrides and manifest
-	cp -r overrides/* $(ServerDir)
-	cp -r repodata/manifest.json $(ServerDir)
-	cp -r repodata/start.sh $(ServerDir)
+	rsync -av --progress --exclude="packmenu" overrides/ $(ServerDir)
+	cp -r repodata/manifest.json repodata/startServer.sh repodata/updateServer.sh $(ServerDir)
+	chmod +x $(ServerDir)/startServer.sh $(ServerDir)/updateServer.sh
 #install server
-	cd $(ServerDir); java -jar forge-Installer.jar --installServer
-#permission start.sh
-	chmod +X start.sh
+	cd $(ServerDir); java -jar forge-Installer.jar --installServer; ./startServer.sh
+#create updater makefile
