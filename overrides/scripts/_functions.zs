@@ -38,28 +38,28 @@ function removeItem(item as IItemStack) as void {
     }
 }
 
-
-
 function removeAndHideItem(item as IItemStack) as void {
     removeItem(item);
     //hide item
     JEI.hideItem(item);
 }
 
-
 function addCraftingRecipe(recipeName as string, output as IItemStack, ingredients as IIngredient[][]) as void {
     craftingTable.addShaped("custom_" + recipeName, output, ingredients);
     <recipetype:create:mechanical_crafting>.addRecipe("mechanical_crafting_" + recipeName, output, ingredients);
 }
-
 
 function changeCraftingRecipe(recipeName as string, output as IItemStack, ingredients as IIngredient[][]) as void {
     craftingTable.removeRecipe(output);
     addCraftingRecipe(recipeName, output, ingredients);
 }
 
-
 function useOnlyOnce(item as IItemStack) as void {
     item.maxDamage = 1;
     item.addTooltip("§cBe careful, it's fragile!");
+}
+
+function changeCraftingToMechanicalCrafting(recipeName as string, output as IItemStack, ingredients as IIngredient[][]) as void {
+    craftingTable.removeRecipe(output);
+    <recipetype:create:mechanical_crafting>.addRecipe("mechanical_crafing_" + recipeName, output, ingredients);
 }
