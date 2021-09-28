@@ -11,5 +11,5 @@ var itemsRemove = [
 ] as IItemStack[];
 
 for item in itemsRemove {
-    removeAndHide(basicLaserGun);
+    removeAndHideItem(basicLaserGun);
 }
