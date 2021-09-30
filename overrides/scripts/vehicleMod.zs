@@ -127,11 +127,11 @@ removeAndAddItemVehicleMod(electricIronEngine.translationKey, electricIronEngine
         [circuitBoard,      ironIngot,               circuitBoard]]);
 
 removeAndAddItemVehicleMod(electricGoldEngine.translationKey, electricGoldEngine,
-        [[advancedPCB,      goldPlate,          advancedPCB],
+        [[redstoneCoil,     goldPlate,          redstoneCoil],
         [goldIngot,         electricIronEngine, goldIngot],
         [advancedPCB,       goldPlate,          advancedPCB]]);
 
 removeAndAddItemVehicleMod(electricDiamondEngine.translationKey, electricDiamondEngine,
-        [[redstoneCoil,     goldPlate,          redstoneCoil],
-        [goldIngot,         electricGoldEngine, goldIngot],
-        [advancedPCB,       goldPlate,          advancedPCB]]);
+        [[advancedPCB,      diamond,            advancedPCB],
+        [manaDiamond,       electricGoldEngine, manaDiamond],
+        [advancedPCB,       diamond,            advancedPCB]]);
