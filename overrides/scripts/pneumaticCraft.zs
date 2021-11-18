@@ -2,6 +2,7 @@ import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
 import crafttweaker.api.tag.TagManager;
 import crafttweaker.api.tag.MCTag;
+import mods.jei.JEI;
 
 var redstoneDust = <tag:items:forge:dusts/redstone> as IIngredient;
 //var RedstoneDust = <item:minecraft:redstone> as IItemStack;
@@ -16,12 +17,27 @@ var calculationProcessor = <item:appliedenergistics2:calculation_processor> as I
 var advancedPCB = <item:pneumaticcraft:advanced_pcb> as IIngredient;
 var logisticsCore = <item:pneumaticcraft:logistics_core> as IIngredient;
 
-changeCraftingRecipe("advanced_pcb", advancedPCB, 
-    [[redstoneDust, logicProcessor, redstoneDust],
+changeCraftingRecipe("advanced_pcb", advancedPCB, [
+    [redstoneDust, logicProcessor,      redstoneDust],
     [plasticSheet, printedCircuitBoard, plasticSheet],
-    [redstoneDust, plasticSheet, redstoneDust]]);
+    [redstoneDust, plasticSheet,        redstoneDust]
+    ]);
 
-changeCraftingRecipe("logistics_core", logisticsCore, 
-    [[reinforcedBrickTile, calculationProcessor, reinforcedBrickTile],
-    [logicProcessor, redstoneDust, logicProcessor],
-    [reinforcedBrickTile, reinforcedBrickTile, reinforcedBrickTile]]);
+changeCraftingRecipe("logistics_core", logisticsCore, [
+    [reinforcedBrickTile,   calculationProcessor,   reinforcedBrickTile],
+    [logicProcessor,        redstoneDust,           logicProcessor],
+    [reinforcedBrickTile,   reinforcedBrickTile,    reinforcedBrickTile]
+]);
+
+//remove Refinery
+<recipetype:pneumaticcraft:refinery>.removeAll();
+removeAndHideItem(<item:pneumaticcraft:refinery>);
+removeAndHideItem(<item:pneumaticcraft:refinery_output>);
+
+//remove amadrone 
+for recipe in furnace.getAllRecipes() {
+    println("> " + recipe.id);
+}
+
+//----------------TODO--------------------------
+<recipetype:pneumaticcraft:thermo_plant>.getRecipeByName("pneumaticcraft:thermo_plant/plastic_from_biodiesel");
