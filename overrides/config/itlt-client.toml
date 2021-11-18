@@ -303,7 +303,7 @@
 			# relaunch it with 64bit Java.
 			# 
 			# Note: Enabling this overrides enable64bitWarning.
-			enable64bitRequirement = true
+			enable64bitRequirement = false
 
 		[Java.Arch.Warning]
 			# 
@@ -370,14 +370,14 @@
 			# - "ModpackName v2 based on %mc" = "ModpackName v2 based on Minecraft* 1.16.5"
 			# 
 			# Note: enableCustomWindowTitle must be enabled for this to take effect.
-			customWindowTitleText = "Islanded - (%mc)"
+			customWindowTitleText = "Mindfactory"
 			# 
 			# The text to use in place of %autoDetect if we're unable to automatically detect your
 			# modpack's display name.
 			# 
 			# Note: This value will always be used for %autoName if enableUsingAutodetectedDisplayName
 			# is disabled, regardless of whether or not the pack is launched from a supported launcher.
-			autoDetectedDisplayNameFallback = "Islanded"
+			autoDetectedDisplayNameFallback = "Mindfactory"
 			# 
 			# Whether or not to automatically replace "%autoName" in customWindowTitleText with
 			# your modpack's display name when launching from a supported launcher.

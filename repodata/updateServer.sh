@@ -1,5 +1,5 @@
 #!/bin/sh
-RepoDir="../Islanded"
+RepoDir="../Mindfactory"
 NAME=$(jq '.name' manifest.json | tr -d '"')
 
 #

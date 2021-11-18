@@ -1,4 +1,4 @@
-# Islanded 0.1.2
+# Mindfactory 0.1.2
 
 __Modpack-Progress: [##########\_\_\_\_\_\_\_\_\_\_] ca. 50%__
 
