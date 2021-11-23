@@ -10,7 +10,7 @@
   },
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "Mindfactory",
+  "name": "Fabricage",
   "version": "0.1.2",
   "author": "",
   "files": [
@@ -392,11 +392,6 @@
     {
       "projectID": 439890,
       "fileID": 3456261,
-      "required": true
-    },
-    {
-      "projectID": 237701,
-      "fileID": 3105779,
       "required": true
     },
     {

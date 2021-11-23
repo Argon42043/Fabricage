@@ -1,6 +1,6 @@
 MAKEFLAGS += --silent
 
-ServerDir = "../MindfactoryServer"
+ServerDir = "../FabricageServer"
 JQ := $(shell which jq > /dev/null; echo $$?)
 
 default:
