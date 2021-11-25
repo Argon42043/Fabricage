@@ -7,6 +7,14 @@ __Modpack-Progress: [##########\_\_\_\_\_\_\_\_\_\_] ca. 50%__
 - [ ] set default options
 - [ ] change icon
 - [ ] change mainmenu
+- [x] set sun and moon to default (moonphase)
+- [ ] remove fog from bedrock
+- [ ] Endmod? (give a reaso to the end)
+- [x] Remove Bedrock Fog
+
+## MODS TO Configure
+- [ ] Create additions
+- [x] totaldarkness
 
 
 ## MainMods
