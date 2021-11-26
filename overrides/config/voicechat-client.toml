@@ -58,4 +58,6 @@ group_player_icon_orientation = "VERTICAL"
 #The location where recordings should be saved
 #Leave empty for default location
 recording_destination = ""
+#If noise cancellation should be enabled
+denoiser = false
 

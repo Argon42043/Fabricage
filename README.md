@@ -1,4 +1,4 @@
-# Fabricage 0.1.2
+# Fabricage 0.1.3
 
 __Modpack-Progress: [##########\_\_\_\_\_\_\_\_\_\_] ca. 50%__
 
@@ -8,12 +8,12 @@ __Modpack-Progress: [##########\_\_\_\_\_\_\_\_\_\_] ca. 50%__
 - [ ] change icon
 - [ ] change mainmenu
 - [x] set sun and moon to default (moonphase)
-- [ ] remove fog from bedrock
+- [x] remove fog from bedrock
 - [ ] Endmod? (give a reaso to the end)
-- [x] Remove Bedrock Fog
+- [ ] configure the one probe
 
 ## MODS TO Configure
-- [ ] Create additions
+- [x] Create additions
 - [x] totaldarkness
 
 

@@ -6,49 +6,49 @@
 	exhaustion_threshold = 8.0
 
 [drink_options]
-	#Thirst restored from drinking with hands.
-	#Range: 0 ~ 20
-	hand_drinking_thirst = 1
 	#Hydration restored from drinking with hands.
 	#Range: 0.0 ~ 1.7976931348623157E308
 	hand_drinking_hydration = 0.1
+	#Thirst restored from drinking with hands.
+	#Range: 0 ~ 20
+	hand_drinking_thirst = 1
 
 	#Effects of drinks from Vanilla, Tough As Nails and other mods.
 	[[drink_options.drink_entries]]
+		poison_chance = 0.25
+		thirst = 2
+		hydration = 0.2
 		location = "minecraft:potion"
-		thirst = 2
-		hydration = 0.2
-		poison_chance = 0.25
 
 	[[drink_options.drink_entries]]
+		poison_chance = 0.75
+		thirst = 1
+		hydration = 0.1
 		location = "toughasnails:dirty_water_bottle"
-		thirst = 1
-		hydration = 0.1
-		poison_chance = 0.75
 
 	[[drink_options.drink_entries]]
+		poison_chance = 0.75
+		thirst = 1
+		hydration = 0.1
 		location = "toughasnails:dirty_water_canteen"
-		thirst = 1
-		hydration = 0.1
-		poison_chance = 0.75
 
 	[[drink_options.drink_entries]]
+		poison_chance = 0.0
+		thirst = 3
+		hydration = 0.4
 		location = "toughasnails:purified_water_bottle"
-		thirst = 3
-		hydration = 0.4
-		poison_chance = 0.0
 
 	[[drink_options.drink_entries]]
+		poison_chance = 0.0
+		thirst = 3
+		hydration = 0.4
 		location = "toughasnails:purified_water_canteen"
-		thirst = 3
-		hydration = 0.4
-		poison_chance = 0.0
 
 	[[drink_options.drink_entries]]
-		location = "toughasnails:water_canteen"
+		poison_chance = 0.25
 		thirst = 2
 		hydration = 0.2
-		poison_chance = 0.25
+		location = "toughasnails:water_canteen"
 
 [biome_options]
 

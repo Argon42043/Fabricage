@@ -14,17 +14,17 @@ splashes = true
 	boundBlockWireframe = true
 	#Set this to false to disable rendering of accessories in the player.
 	accessories = true
+	#Set this to true if you use lots of floating flowers and are experiencing rendering lag. Will disable the floating flowers' animations and render them statically for a major performance boost. Hit F3+A in-world after toggling this.
+	staticFloaters = false
 	#The height of the mana display bar in above the XP bar. You can change this if you have a mod that changes where the XP bar is.
 	#Range: > 0
 	manaBarHeight = 29
-	#Set this to true if you use lots of floating flowers and are experiencing rendering lag. Will disable the floating flowers' animations and render them statically for a major performance boost. Hit F3+A in-world after toggling this.
-	staticFloaters = false
 
 	[rendering.fancySkybox]
-		#Set this to false to disable the fancy skybox in Garden of Glass
-		enabled = true
 		#Set this to true to enable the fancy skybox in non Garden of Glass worlds. (Does not require Garden of Glass loaded to use, needs 'fancySkybox.enabled' to be true as well)
 		normalWorlds = false
+		#Set this to false to disable the fancy skybox in Garden of Glass
+		enabled = true
 
 	[rendering.lexicon]
 		#Set this to false to disable the rotating items in the petal and rune entries in the Lexica Botania.
