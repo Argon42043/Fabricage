@@ -4,24 +4,25 @@ import crafttweaker.api.tag.TagManager;
 import crafttweaker.api.tag.MCTag;
 import mods.jei.JEI;
 
-var redstoneDust = <tag:items:forge:dusts/redstone> as IIngredient;
-//var RedstoneDust = <item:minecraft:redstone> as IItemStack;
+import crafttweaker.api.tag.TagManagerFluid;
 
-var plasticSheet = <tag:items:pneumaticcraft:plastic_sheets> as IIngredient;
-var printedCircuitBoard = <item:pneumaticcraft:printed_circuit_board> as IIngredient;
-var reinforcedBrickTile = <item:pneumaticcraft:reinforced_brick_tile> as IIngredient;
+var redstoneDust            = <tag:items:forge:dusts/redstone>                  as IIngredient;
 
-var logicProcessor = <item:appliedenergistics2:logic_processor> as IIngredient;
-var calculationProcessor = <item:appliedenergistics2:calculation_processor> as IIngredient;
+var plasticSheet            = <tag:items:pneumaticcraft:plastic_sheets>         as IIngredient;
+var printedCircuitBoard     = <item:pneumaticcraft:printed_circuit_board>       as IIngredient;
+var reinforcedBrickTile     = <item:pneumaticcraft:reinforced_brick_tile>       as IIngredient;
 
-var advancedPCB = <item:pneumaticcraft:advanced_pcb> as IIngredient;
-var logisticsCore = <item:pneumaticcraft:logistics_core> as IIngredient;
+var logicProcessor          = <item:appliedenergistics2:logic_processor>        as IIngredient;
+var calculationProcessor    = <item:appliedenergistics2:calculation_processor>  as IIngredient;
+
+var advancedPCB             = <item:pneumaticcraft:advanced_pcb>                as IIngredient;
+var logisticsCore           = <item:pneumaticcraft:logistics_core>              as IIngredient;
 
 changeCraftingRecipe("advanced_pcb", advancedPCB, [
     [redstoneDust, logicProcessor,      redstoneDust],
     [plasticSheet, printedCircuitBoard, plasticSheet],
     [redstoneDust, plasticSheet,        redstoneDust]
-    ]);
+]);
 
 changeCraftingRecipe("logistics_core", logisticsCore, [
     [reinforcedBrickTile,   calculationProcessor,   reinforcedBrickTile],
@@ -34,10 +35,8 @@ changeCraftingRecipe("logistics_core", logisticsCore, [
 removeAndHideItem(<item:pneumaticcraft:refinery>);
 removeAndHideItem(<item:pneumaticcraft:refinery_output>);
 
-//remove amadrone 
-for recipe in furnace.getAllRecipes() {
-    println("> " + recipe.id);
+//kerosene production
+for fluid in ["pneumaticcraft:thermo_plant/kerosene","pneumaticcraft:thermo_plant/lubricant_from_biodiesel"]{
+    <recipetype:pneumaticcraft:thermo_plant>.removeByName(fluid);
 }
-
-//----------------TODO--------------------------
-<recipetype:pneumaticcraft:thermo_plant>.getRecipeByName("pneumaticcraft:thermo_plant/plastic_from_biodiesel");
+<recipetype:pneumaticcraft:thermo_plant>.addRecipe("kerosene", <fluid:immersivepetroleum:diesel> * 100, <item:minecraft:air>, <fluid:pneumaticcraft:kerosene> * 80, <item:minecraft:air>, 2.0, 573);
