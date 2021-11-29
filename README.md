@@ -11,6 +11,8 @@ __Modpack-Progress: [############\_\_\_\_\_\_\_\_] ca. 60%__
 - [x] remove fog from bedrock
 - [x] Endmod? (give a reaso to the end)
 - [x] configure the one probe
+- [ ] remove plastic from biodisel
+- [ ] remove sulfurized diesel from coker
 
 ## MODS TO Configure
 - [x] Create additions
