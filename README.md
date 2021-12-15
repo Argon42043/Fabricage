@@ -54,7 +54,7 @@ __Modpack-Progress: [############\_\_\_\_\_\_\_\_] ca. 60%__
 - [x] [Tool Belt (by gigaherz)](https://www.curseforge.com/minecraft/mc-mods/tool-belt)
 - [x] [Uppers (by vadis365)](https://www.curseforge.com/minecraft/mc-mods/uppers)
   
-![Progressionline](Progressionline.svg)
+![Progressionline](Progressionline.drawio.svg)
 
 Extranote:
 
