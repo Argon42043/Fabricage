@@ -2,6 +2,12 @@
 
 __Modpack-Progress: [############\_\_\_\_\_\_\_\_] ca. 60%__
 
+##IDEAS
+- [ ] Supplementaries mod
+- [ ] Macaw's stuff
+- [ ] Farmers Delight
+- [ ] alex's mobs
+
 ## TODO
 - [ ] test memmory usage
 - [ ] set default options
@@ -13,6 +19,7 @@ __Modpack-Progress: [############\_\_\_\_\_\_\_\_] ca. 60%__
 - [x] configure the one probe
 - [ ] remove plastic from biodisel
 - [ ] remove sulfurized diesel from coker
+- [ ] game lags when looking at a rocket
 
 ## MODS TO Configure
 - [x] Create additions

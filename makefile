@@ -1,7 +1,6 @@
 MAKEFLAGS += --silent
 
 ServerDir = "../FabricageServer"
-JQ := $(shell which jq > /dev/null; echo $$?)
 
 default:
 	echo "Syntax:\n\
@@ -13,9 +12,7 @@ client:
 
 server:
 #download jq
-	if [ $(JQ) -eq 1 ]; then\
-		sudo apt install jq;\
-	fi
+sudo apt install jq openjdk-16-jre-headless
 #create Server dir
 	mkdir -p $(ServerDir)
 #downloading forge
