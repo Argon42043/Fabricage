@@ -12,7 +12,7 @@ client:
 
 server:
 #download jq
-sudo apt install jq openjdk-16-jre-headless
+	sudo apt install jq openjdk-16-jre-headless
 #create Server dir
 	mkdir -p $(ServerDir)
 #downloading forge
