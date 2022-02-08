@@ -7,6 +7,25 @@ __Modpack-Progress: [############\_\_\_\_\_\_\_\_] ca. 60%__
 - [ ] Macaw's stuff
 - [ ] Farmers Delight
 - [ ] alex's mobs
+- [ ] NetherPortalFix
+- [ ] Dynamic Trees(muss kompatibilität getestet werden)
+- [ ] Tips
+- [ ] Mo structures
+- [ ] seamles loading screen
+- [ ] subteranean wildernes?
+- [ ] Better Compatibility Checker
+- [ ] Better Mods Button [Forge]
+- [ ] Magnesium
+- [ ] Magnesium Dynamic Lights
+- [ ] Magnesium Extras
+- [ ] Sulfuric
+- [ ] RoadRunner
+- [ ] Paxi (Forge)
+- [ ] Crash Utilities
+- [ ] remove Modnametooltip Mod
+
+ 
+
 
 ## TODO
 - [ ] test memmory usage
@@ -17,16 +36,13 @@ __Modpack-Progress: [############\_\_\_\_\_\_\_\_] ca. 60%__
 - [x] remove fog from bedrock
 - [x] Endmod? (give a reaso to the end)
 - [x] configure the one probe
-- [ ] remove plastic from biodisel
-- [ ] remove sulfurized diesel from coker
-- [ ] game lags when looking at a rocket
+- [x] remove plastic from biodisel
+- [ ] coker replace input fluid with something more appropriate
+- [ ] remove bitumen from orespawning
+- [x] game lags when looking at a rocket
 
-## MODS TO Configure
-- [x] Create additions
-- [x] totaldarkness
+## Mods to change recipes
 
-
-## MainMods
 - [ ] [Advanced Peripherals (by Sr_endi)](https://www.curseforge.com/minecraft/mc-mods/advanced-peripherals)
 - [ ] [Advanced Rocketry (by zmaster587)](https://www.curseforge.com/minecraft/mc-mods/advanced-rocketry)
 - [x] [Applied Energistics 2 (by AlgorithmX2)](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2)
@@ -63,7 +79,8 @@ __Modpack-Progress: [############\_\_\_\_\_\_\_\_] ca. 60%__
   
 ![Progressionline](Progressionline.drawio.svg)
 
-Extranote:
+## Extranote:
+- Epic Fight Mod (not compatible with botania, mekanism, etc.)
 
 The Guidebook "Sanguine Scientiem" from Bloodmagic has some issue, because of changs of the recipes. 
 The book can't show some recipes, we can't fix it because of missing commands and missing

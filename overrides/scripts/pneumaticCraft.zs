@@ -18,13 +18,13 @@ var calculationProcessor    = <item:appliedenergistics2:calculation_processor>  
 var advancedPCB             = <item:pneumaticcraft:advanced_pcb>                as IIngredient;
 var logisticsCore           = <item:pneumaticcraft:logistics_core>              as IIngredient;
 
-changeCraftingRecipe("advanced_pcb", advancedPCB, [
+changeCraftingRecipe("pc_advanced_pcb", advancedPCB, [
     [redstoneDust, logicProcessor,      redstoneDust],
     [plasticSheet, printedCircuitBoard, plasticSheet],
     [redstoneDust, plasticSheet,        redstoneDust]
 ]);
 
-changeCraftingRecipe("logistics_core", logisticsCore, [
+changeCraftingRecipe("pc_logistics_core", logisticsCore, [
     [reinforcedBrickTile,   calculationProcessor,   reinforcedBrickTile],
     [logicProcessor,        redstoneDust,           logicProcessor],
     [reinforcedBrickTile,   reinforcedBrickTile,    reinforcedBrickTile]
@@ -35,8 +35,12 @@ changeCraftingRecipe("logistics_core", logisticsCore, [
 removeAndHideItem(<item:pneumaticcraft:refinery>);
 removeAndHideItem(<item:pneumaticcraft:refinery_output>);
 
-//kerosene production
-for fluid in ["pneumaticcraft:thermo_plant/kerosene","pneumaticcraft:thermo_plant/lubricant_from_biodiesel"]{
+//plastic production
+for fluid in ["pneumaticcraft:thermo_plant/kerosene","pneumaticcraft:thermo_plant/lubricant_from_biodiesel","pneumaticcraft:thermo_plant/plastic_from_biodiesel"]{
     <recipetype:pneumaticcraft:thermo_plant>.removeByName(fluid);
 }
-<recipetype:pneumaticcraft:thermo_plant>.addRecipe("kerosene", <fluid:immersivepetroleum:diesel> * 100, <item:minecraft:air>, <fluid:pneumaticcraft:kerosene> * 80, <item:minecraft:air>, 2.0, 573);
+<recipetype:pneumaticcraft:thermo_plant>.addRecipe("pc_kerosene", <fluid:immersivepetroleum:diesel> * 100, <item:minecraft:air>, <fluid:pneumaticcraft:kerosene> * 80, <item:minecraft:air>, 2.0, 573);
+//<recipetype:immersivepetroleum:cokerunit>.removeByName("immersivepetroleum:coking/petcoke");
+for recipe in <recipetype:immersivepetroleum:cokerunit>.getAllRecipes(){
+println("cokerrecipe "+recipe.commandString);
+}
