@@ -81,5 +81,3 @@ craftingTable.removeRecipe(<item:engineersdecor:metal_bar>);
 //Engineers Decor
 craftingTable.removeRecipe(<item:patchouli:guide_book>.withTag({"patchouli:book": "engineersdecor:engineersdecor_manual" as string}));
 craftingTable.addShapeless("custom_engineersdecor_manual", <item:patchouli:guide_book>.withTag({"patchouli:book": "engineersdecor:engineersdecor_manual" as string}), [<item:minecraft:book>, <item:engineersdecor:metal_bar>]);
-
-

@@ -8,7 +8,7 @@
 	#Range: 1 ~ 254
 	bitumenMinHeight = 60
 	#Generate bitumen in the world [true / false]
-	bitumenGeneration = true
+	bitumenGeneration = false
 	#Amount of bitumen pocket being generated per chunk [1-100, default: 1]
 	#Range: 1 ~ 100
 	bitumenChance = 1

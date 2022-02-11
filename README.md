@@ -37,8 +37,8 @@ __Modpack-Progress: [############\_\_\_\_\_\_\_\_] ca. 60%__
 - [x] Endmod? (give a reaso to the end)
 - [x] configure the one probe
 - [x] remove plastic from biodisel
-- [ ] coker replace input fluid with something more appropriate
-- [ ] remove bitumen from orespawning
+- [x] coker replace input fluid with something more appropriate
+- [x] remove bitumen from orespawning
 - [x] game lags when looking at a rocket
 
 ## Mods to change recipes

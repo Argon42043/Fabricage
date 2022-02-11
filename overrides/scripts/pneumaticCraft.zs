@@ -40,7 +40,3 @@ for fluid in ["pneumaticcraft:thermo_plant/kerosene","pneumaticcraft:thermo_plan
     <recipetype:pneumaticcraft:thermo_plant>.removeByName(fluid);
 }
 <recipetype:pneumaticcraft:thermo_plant>.addRecipe("pc_kerosene", <fluid:immersivepetroleum:diesel> * 100, <item:minecraft:air>, <fluid:pneumaticcraft:kerosene> * 80, <item:minecraft:air>, 2.0, 573);
-//<recipetype:immersivepetroleum:cokerunit>.removeByName("immersivepetroleum:coking/petcoke");
-for recipe in <recipetype:immersivepetroleum:cokerunit>.getAllRecipes(){
-println("cokerrecipe "+recipe.commandString);
-}
