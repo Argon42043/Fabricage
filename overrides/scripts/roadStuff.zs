@@ -5,7 +5,7 @@ import crafttweaker.api.item.IIngredient;
 var lavaBukkit = <item:minecraft:lava_bucket> as IItemStack;
 var slag = <item:immersiveengineering:slag> as IItemStack;
 var gravel = <item:minecraft:gravel> as IItemStack;
-var bitumen = <item:immersivepetroleum:bitumen> as IItemStack;
+var bitumen = <tag:items:forge:bitumen> as IIngredient;
 
 var itemsRemove = [
     <item:immersivepetroleum:asphalt>,

@@ -1,28 +1,22 @@
 # Fabricage 0.1.3
 
-__Modpack-Progress: [############\_\_\_\_\_\_\_\_] ca. 60%__
+__Modpack-Progress: [#############\_\_\_\_\_\_\_] ca. 65%__
 
 ##IDEAS
-- [ ] Supplementaries mod
+- [x] Supplementaries mod
 - [ ] Macaw's stuff
-- [ ] Farmers Delight
-- [ ] alex's mobs
-- [ ] NetherPortalFix
+- [x] Farmers Delight
+- [x] alex's mobs
+- [x] NetherPortalFix
 - [ ] Dynamic Trees(muss kompatibilität getestet werden)
-- [ ] Tips
-- [ ] Mo structures
-- [ ] seamles loading screen
-- [ ] subteranean wildernes?
-- [ ] Better Compatibility Checker
+- [x] Tips
+- [x] Mo structures
+- [x] seamles loading screen
+- [x] subteranean wildernes?
+- [x] Better Compatibility Checker
 - [ ] Better Mods Button [Forge]
-- [ ] Magnesium
-- [ ] Magnesium Dynamic Lights
-- [ ] Magnesium Extras
-- [ ] Sulfuric
-- [ ] RoadRunner
-- [ ] Paxi (Forge)
-- [ ] Crash Utilities
-- [ ] remove Modnametooltip Mod
+- [x] Magnesium Dynamic Lights
+- [x] Paxi (Forge)
 
  
 
@@ -32,6 +26,9 @@ __Modpack-Progress: [############\_\_\_\_\_\_\_\_] ca. 60%__
 - [ ] set default options
 - [ ] change icon
 - [ ] change mainmenu
+- [ ] check the one probe overlay conflicts
+- [x] add end datapack
+- [x] check if metal press glitch stil works
 - [x] set sun and moon to default (moonphase)
 - [x] remove fog from bedrock
 - [x] Endmod? (give a reaso to the end)
